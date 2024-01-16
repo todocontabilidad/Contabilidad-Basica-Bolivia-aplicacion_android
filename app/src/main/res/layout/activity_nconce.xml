@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAB7B8"
+    tools:context=".NCOnce">
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="8dp"
+                android:text="NORMA DE CONTABILIDAD N° 11
+\nINFORMACION ESENCIAL REQUERIDA PARA UNA ADECUADA
+\nEXPOSICION DE LOS ESTADOS FINANCIEROS "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="INTRODUCCION
+\nLa presente Norma de Contabilidad se refiere a la información mínima necesaria para una adecuada
+revelación de los eventos económicos, financieros y sociales cuantificables e identificables generados en
+una empresa, traducidos en estados financieros y sus respectivas notas. Para la preparación de la misma
+han sido considerados los aspectos técnicos contenidos en las normas internacionales Nos. 1 y 5.
+Los estados financieros se requieren principalmente para promocionar información oportuna que permita
+hacer evaluaciones y tomar decisiones de carácter financiero. Los usuarios de dicha información, no
+pueden formarse juicios confiables a menos que los estados financieros sean claros y comprensibles. La
+información que se necesita para este propósito podrá extenderse más allá del mínimo necesario para
+cumplir con los requerimientos legales de la empresa o de las autoridades reguladoras.
+En esta Norma se expone la información mínima requerida, la misma que puede ser ampliada por los
+requisitos de revelación incluidos en otras normas de contabilidad que tratan sobre aspectos contables
+específicos.
+\n1.- INFORMACION MÍNIMA REQUERIDA
+\nLos estados financieros y sus notas deben incluir información sobre:
+\n- Los recursos económicos y financieros de la empresa, sus obligaciones y su patrimonio.
+\n- Los cambios en el patrimonio de la empresa.
+\n- El desempeño de la empresa durante un período, medido a través de los resultados y sus
+componentes.
+\n- El cómo obtiene sus recursos financieros y en qué los aplica.
+\n- Aspectos que afectan la liquidez y solvencia de la empresa.
+\n- Explicaciones y comentarios de la gerencia que ayuden a mejorar la comprensión de la
+información provista, como ser:
+\n- Criterios contables empleados para preparar la información.
+\n- Supuestos adoptados para efectuar estimaciones relativas a dicho proceso.
+\n2.- PRESENTACION DE LA INFORMACIÓN
+\nLa información anteriormente indicada se debe expresar mediante los estados financieros básicos y
+las notas relativas a los mismos.
+\n3.- CONCEPTOS
+\nESTADOS FINANCIEROS BÁSICOS
+ \nSon el conjunto de documentos contables que en forma resumida, de acuerdo con normas de
+contabilidad aceptadas en la República de Bolivia, proporcionan información en términos de unidades
+monetarias, referidas a la situación patrimonial y financiera de las empresas (entidad) a una
+determinada fecha, los resultados obtenidos por un determinado tiempo de trabajo, la evolución de su
+patrimonio y los cambios en su situación financiera.
+\n Los estados financieros deben ser comparativos y expresados en moneda constante, considerando la
+naturaleza de la información suministrada y si la parte de ella que se refiere a ejercicios anteriores
+sigue teniendo importancia para los usuarios de los estados financieros.
+\n Los estados financieros básicos son:"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="- Balance General
+\n- Estado de Ganancias y Pérdidas (Estado de Resultados)
+\n- Estado de Evolución del Patrimonio (incluye el de Resultados Acumulados)
+\n- Estado de Flujos de Efectivo (Cambios en la Situación Financiera)
+\n- Notas a los estados financieros
+\n De acuerdo a normas de Contabilidad, la información financiera sobre una empresa (entidad) que se
+proporciona a los usuarios internos o externos de la misma debe ser: clara, veraz, precisa y
+completa. Estos requisitos se logran a través de los estados financieros básicos que incluyen la
+información esencial y de estados adicionales denominados “Notas a los estados financieros” que se
+definen como. “Información adicional a los estados financieros”, que aclara completa y complementa la
+contenida en los mencionados estados financieros, dando cumplimiento al principio contable de
+exposición. De acuerdo a su contenido las Notas pueden ser descriptivas (narrativas) y de detalle
+(anexos) y al igual que los estados financieros, su preparación es de responsabilidad de la entidad que
+los emite.
+\n3.1 BALANCE GENERAL
+\nEs un estado básico, estático que proporciona información sobre la situación patrimonial y
+financiera de la entidad, afectada por sus recursos, su estructura, liquidez y solvencia, así como
+por factores externos, a una fecha determinada. Incluye los elementos Activo, Pasivo y Patrimonio.
+\n3.2 ESTADO DE GANANCIAS Y PERDIDAS (DE RESULTADOS)
+\nEs un estado básico, dinámico que proporciona información sobre la rentabilidad de la entidad y
+su capacidad de generar flujos de efectivo, por un ejercicio determinado. Incluye elementos de
+ingresos operativos, costos, gastos operativos y otras partidas no operativas.
+\n3.3 ESTADO DE EVOLUCION DEL PATRIMONIO
+\nEs un estado básico, dinámico que proporciona información sobre las variaciones ocurridas en el
+patrimonio de la entidad por un ejercicio determinado. Incluye los elementos de capital, reservas y
+“Resultados Acumulados”.
+\n3.4 ESTADO DE FLUJOS DE EFECTIVO (CAMBIOS EN LA POSICION FINANCIERA)
+\nEs un estado básico, dinámico que expone el flujo (embolsos y desembolsos) del efectivo y
+equivalentes, o los cambios en los recursos de la entidad, originados en actividades de operación,
+inversión y financiamiento durante un ejercicio determinado.
+\n4.- COMPONENTES DEL BALANCE GENERAL
+\n4.1 Incluye bienes, derechos y valores negociables controlados por la entidad como resultado de
+eventos pasados, cuyos beneficios económicos futuros se espera que fluyan hacia la misma.
+\nEstos recursos deben poseer un costo o valor que pueda ser medida confiablemente, pueden ser
+productivos o convertibles en efectivo o su equivalente y poseer forma física o intangible.
+Existen varias formas de clasificar las cuentas del activo en el balance general, siendo la más
+utilizada para fines de exposición la que tiene como base el tiempo de su posible conversión en
+efectivo. Bajo esta forma, las que se convierten en un tiempo menor o igual a un año se clasifican
+como activo corriente y las que son convertibles en tiempo mayor a un año, como Activo no
+corriente.
+\n El activo también incluye un grupo de cuentas que resumen operaciones de naturaleza especial,
+pues no constituyen ni bienes ni derechos de la empresa, si no más bien un gasto a ser aplicado a
+las operaciones futuras y se agrupan bajo el rubro “Cargos Diferidos”
+\n4.2 PASIVOS
+\nRefleja las obligaciones de la empresa originadas en eventos pasados. Generalmente el pago de
+las mismas se espera resulte de un egreso de recursos de la empresa.
+\n Estas obligaciones deben ser medidas razonablemente y pueden ser legalmente exigibles o no,
+como ser el reconocimiento de una obligación antes de que sea efectivamente exigible."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Al igual que las cuentas de activo, cuando se las clasifica por el tiempo del posible pago, serán
+corrientes o no corrientes, según sean menores o mayores a un año.
+\n Como en el activo, en el pasivo se incluyen operaciones que representan ingresos a ser aplicados
+a operaciones futuras y que se conocen como créditos diferidos. Si bien las cuentas del rubro
+tienen saldo acreedor, no constituyen pasivos para la empresa.
+\n4.3 PATRIMONIO
+Corresponde al diferencial de todos los activos una vez deducidos todos los pasivos. El Patrimonio
+está constituido por los aportes de los inversionistas, las reservas constituidas (legales y/o
+estatutarias) y los resultados de sus operaciones.
+\n4.4 INGRESOS
+\nCorresponden a los incrementos de los beneficios económicos, ocurridos durante el período
+contable en forma de incrementos de activos, o disminuciones de pasivos que resulten en
+aumentos de patrimonio, diferentes a aquellos provenientes de aportes por parte de los
+inversionistas. Estos ingresos deben ser realizados con un grado suficiente de certeza.
+\n4.5 GASTOS
+\nCorresponden a las disminuciones de los beneficios económicos ocurridos durante el período
+contable en forma de salidas o desvalorizaciones de activos, o por asumir obligaciones que
+resultan en disminuciones de patrimonio, diferentes a las relacionadas con la distribución de
+utilidades a los propietarios y otras disminuciones de capital. Esos gastos deben ser medidos
+sobre bases confiables y reconocidos en cuanto se los conoce.
+\n5. REVELACIONES EN LOS ESTADOS FINANCIEROS
+\n5.1 Sin que el siguiente detalle sea limitativo, de acuerdo con el tipo de industria o negocio, las notas
+aclaratorias a los estados financieros deben referirse a:
+\n- Identificación.
+\n- Constitución legal y naturaleza de las actividades de la entidad.
+\n- Principales prácticas y contables.
+\n- Composición de rubros significativos.
+\n- Restricciones sobre el tipo y/o patrimonio.
+\n- Hechos posteriores.
+\n- Efectos de la inflación.
+\n- Posición neta de cambio.
+\n- Contingencias.
+\nLas partidas significativas deben exponerse individualmente sin ser compensadas con otras
+partidas de saldos contrarios.
+\n Las partidas regularizadoras de valor (previsiones, depreciación y/o amortización acumulada),
+deben exponerse en el activo, disminuyendo el valor de la partida correspondiente.
+\n Todos los estados financieros deben ser firmados por profesional idóneo y los responsables
+legales de la entidad.
+\n5.2 Para facilitar la lectura de los estados financieros se mencionan las siguientes reglas relativas a
+preparación de las Notas:
+\na) Agruparlas en una sola sección de los estados financieros.
+\nb) Asignarles título.
+\nc) Numerarlas correlativamente.
+\nd) Referenciarlas con los estados financieros."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="e) Ordenarlas de tal manera que faciliten su lectura en forma conjunta con los estados
+financieros.
+\nf) Si fuera necesario, las cifras y clasificaciones de partidas en los estados financieros deben
+complementarse con información adicional para mejorar su interpretación.
+\n6. EJEMPLOS DE INFORMACION
+\n6.1 De revelaciones generales
+\n Debe mostrarse la razón social o denominación de la empresa (entidad), el país en el cual se
+constituyó, la fecha del balance general y el período cubierto por los estados financieros. Debe
+describirse la naturaleza de las actividades de la empresa, la forma legal de ésta y la moneda en
+la cual se expresan los estados financieros, si estos datos no son evidentes de otra manera,
+teniendo en cuenta las normas contables específicas para el tipo de industria, actividad o
+transacción.
+
+\n6.2 De revelaciones sobre el balance general
+\na) Restricciones a los derechos de propiedad sobre activos;
+\nb) Garantías otorgadas respecto a pasivos;
+\nc) Los métodos de establecer previsiones para indemnizaciones y otros planes de retiro;
+\nd) Activos y pasivos contingentes, cuantificados si es posible;
+\ne) Fondos comprometidos para futuras erogaciones capitalizables;
+\nf) Activo corriente:
+\n• Efectivo en caja y bancos (deben revelarse las restricciones a este rubro, cuando
+corresponda)
+\n• Inversiones temporarias (debe revelarse el valor de mercado si es diferente a la cifra que
+se muestra en los estados financieros)
+\n• Cuentas por cobrar:
+\n- Documentos y cuentas por cobrar comerciales
+\n- Cuentas por cobrar a funcionarios y accionistas
+\n- Cuentas por cobrar a empresas relacionadas
+\n- Otras cuentas por cobrar y pagos anticipados.
+•\n Inventarios.
+\ng) Activo no corriente:
+\n- Cuentas por cobrar a largo plazo
+\n- Inventarios no corrientes
+\n- Inversiones permanentes
+\n- Bienes de Uso (Activo Fijo)
+\n- Cargos diferidos.
+\nh) Pasivo Corriente."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="- Obligaciones bancarias y financieras
+\n- Porción corriente de pasivos a largo plazo
+\n- Cuentas por pagar:
+\n- Documentos y cuentas por pagar comerciales
+\n- Cuentas por pagar a funcionarios y accionistas
+\n- Cuentas a pagar a empresas relacionadas
+\n- Obligaciones fiscales y sociales
+\n- Otras cuentas por pagar, provisiones y cobros anticipados.
+\ni) Pasivo no corriente
+\n- Obligaciones bancarias y financieras con y sin garantía
+\n- Obligaciones con empresas relacionadas
+\n- Debe revelarse: tipos de garantías, tasas de interés, plazos de pago, cláusulas
+compromisos, subordinadas y subrogaciones, condiciones de convertibilidad y los importes
+no amortizados de primas o descuentos.
+\n- Previsión para indemnizaciones al personal.
+\n- Otros pasivos a corto plazo.
+\nj) Las partidas importantes incluidas en otros pasivos y en provisiones y acumulaciones deben
+revelarse por separado.
+\nk) Créditos diferidos.
+\nl) Patrimonio.
+\n- Capital pagado (según constitución legal de la empresa o entidad)
+\n- Reservas.
+\n- Resultados acumulados.
+\nEn el caso de Sociedades Anónimas debe revelarse:
+\n- Capital pagado, número, clase, valor nominal de acciones autorizadas, emitidas y en
+circulación.
+\n- Capital aun no pagado.
+\n- El movimiento de las cuentas de capital social durante el período.
+\n- Los derechos, preferencias y restricciones con respecto a la distribución de dividendos y al
+reembolso de capital.
+\n6.3 De revelaciones sobre el Estado de Ganancias y Pérdidas ( Estado de Resultados).
+\nm) Ventas u otros ingresos de operación
+\nn) Costo de ventas
+\no) Depreciaciones y amortizaciones
+\np) Gastos administrativos
+\nq) Gastos de comercialización
+\nr) Gastos financieros
+\ns) Resultado del Ajuste por Inflación y Tenencia de Bienes."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="8dp"
+                android:text="t) Otros egresos de Operación
+\nu) Ingresos (egresos) no operativos.
+\nv) Resultados de las transacciones.
+\nw) Impuesto sobre las Utilidades de las Empresas.
+\n7. INFORMACION FINANCIERA COMPLEMENTARIA
+
+\nConcepto
+\nCada empresa (entidad), además de la información contable obligatoria que emite a través de los
+estados financieros y sus notas, puede preparar información adicional constituida por datos necesarios
+para ciertos usuarios de los estados financieros y no para la generalidad de ellos. Por lo tanto su
+preparación no tiene carácter de obligatoriedad para dar cumplimiento a normas contables. En general
+tenderá a posibilitar un mejor análisis de los estados financieros de la empresa (entidad). Esta
+información podría ser preparada por requerimientos de:
+\na) Determinadas normas legales o institucionales.
+\nb) Entidades financieras acreedoras de la empresa (entidad)
+\nc) Accionistas y otros usuarios.
+\nContenido
+\nEl contenido de la información financiera complementaria estará determinado por las necesidades de
+los usuarios que la requieran.
+SANCION DEL COMITÉ EJECUTIVO NACIONAL DEL COLEGIO DE AUDITORES DE BOLIVIA.
+La presente Norma ha sido sancionada por el Comité Ejecutivo Nacional del Colegio de Auditores de
+Bolivia, en su sesión ordinaria de 25 de abril del año 2000."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+            <!-- Puedes agregar más TextViews aquí si es necesario -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

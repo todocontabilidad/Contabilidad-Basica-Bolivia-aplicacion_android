@@ -1,0 +1,315 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#85C1E9">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="PLAN DE CUENTAS\n(Para empresas comerciales)"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <!-- ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Contenido de la ScrollView -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Encabezados de la tabla -->
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="10dp"
+                        android:text="CÓDIGO Nº"
+                        android:textColor="#FFFFFF"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="10dp"
+                        android:textColor="#FFFFFF"
+                        android:text="DESCRIPCIÓN"
+                        android:typeface="monospace" />
+                </TableRow>
+
+                <!-- Datos de la tabla (filas adicionales) -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="311000"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="CUENTAS DE CAPITAL"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="311001"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="CAPITAL SOCIAL PAGADO"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="311002"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="APORTES POR CAPITALIZAR"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="311003"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="AJUSTE DE CAPITAL"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="312000"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="AJUSTE DE CAPITAL"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="312001"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="AJUSTE DE CAPITAL"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="321000"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="CUENTAS RESERVAS"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="321001"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="RESERVA LEGAL"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="321002"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="OTRAS RESERVAS"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="322000"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="AJUSTE DE RESERVAS PATRIMONIALES"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="322001"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="AJUSTE DE RESERVAS PATRIMONIALES"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="331000"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="CUENTAS DE RESULTADO"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="331001"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="RESULTADOS ACUMULADOS"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="331002"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="RESULTADOS DE LA GESTION"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="332000"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="ACTUALIZACION VALOR CUENTAS DE RESULTADOS"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="332001"
+                        android:textColor="#641E16"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="RESULTADOS ACUMULADOS"
+                        android:padding="10dp" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+    </ScrollView>
+</LinearLayout>

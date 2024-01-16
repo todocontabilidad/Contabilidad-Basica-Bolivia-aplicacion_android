@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAB7B8"
+    tools:context=".NCCinco">
+
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="8dp"
+                android:text="NORMA DE CONTABILIDAD Nº 5\nPRINCIPIOS DE CONTABILIDAD PARA LA INDUSTRIA MINERA\nDECISION No 9\n(Reemplaza a la decisión No 4)"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="VISTO:\n
+El trabajo de la Comisión de Principios de Contabilidad de este Consejo y\nCONSIDERANDO:\nQue, se ha emitido la Decisión No 6 referente al ajuste por inflación de los estados
+financieros correspondientes a gestiones anuales completas que se inician a partir del 1ro
+de enero de 1986.\nQue, teniendo en cuenta los lineamientos de la Decisión No 6, se hace necesario
+modificar algunos conceptos de los Principios de Contabilidad para la industria minera
+contenidos en la decisión No 4 de este Consejo Técnico aprobado el 11 de abril de 1983,para adecuarlos a los lineamientos de la Decisión No 6.\nSE DECIDE:\nModificar el contenido de la Decisión No 4 de este Consejo Técnico, la que a partir de la
+vigencia de este pronunciamiento tendrá la siguiente redacción:
+\nVISTO:
+\nEl informe presentado por la Comisión de Principios de Contabilidad de este Consejo en
+base al trabajo desarrollado por la Comisión del Proyecto de Contabilidad Minera, donde
+participaron el Ministerio de Minería, Ministerio de Finanzas, Fondo Nacional de
+Explotación Minera, Corporación Minera de Bolivia, Asociación de la Minería Mediana,
+Cámara Nacional de Minería, Instituto Nacional de Cooperativas y Federación Nacional de
+Cooperativas Mineras y una Consultora privada canadiense, bajo un convenio
+bigubernamental entre Bolivia y Canadá, en relación con el desarrollo de un conjunto de
+principios recomendados para la Industria Minera de Bolivia.
+\nCONSIDERANDO:
+\nQue, en un país esencialmente minero como es Bolivia, es necesario establecer
+Principios Contables de aceptación general para este sector de la economía nacional.
+\nQue, el establecimiento de dichos principios contribuirá al desarrollo de la contabilidad
+minera a fin de proveer de información financiera uniforme para el sector involucrado y
+para la economía en su conjunto.
+\nQue, cualquier sistema futuro de imposición a la Minería sobre la base de utilidades netas
+operacionales implicará la elaboración de estados financieros en base a principios de
+contabilidad generalmente aceptados, y considerando las siguientes definiciones:
+\na) Prospección\nEs la etapa de búsqueda de un área de probada mineralización ; tal actividad
+normalmente incluye estudios topográficos, geológicos y geofísicos de áreas
+relativamente grandes, emprendidos en un intento de localizar áreas que avalen cierta
+exploración. La prospección concluye cuando se adquieren los derechos de
+explotación y/o producción."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="b) Adquisición\nEs la gestión de consolidación de los derechos legales para la exploración y/o
+producción de minerales descubiertos dentro de un área específica.
+\nc) Exploración\nEs la etapa de examen detallado de una propiedad para determinar si existen
+depósitos de minerales en cantidades que pueden ser económicamente explotables.
+La exploración comienza cuando se adquieren los derechos de exploración y/o
+producción.
+\nd) Desarrollo\nEs la etapa de preparación de un yacimiento para la producción comercial.
+\ne) Valor de costo de Inventarios de Minerales\nEs su costo de producción.
+\nf) Valor de Mercado de Inventarios de Minerales\nEs su valor neto realizable.
+\ng) Amortización de los Costos capitalizados en base al método de la unidad de
+producción.\nDe acuerdo con la amortización por el método de unidad de producción, a cada unidad
+de mineral producido se asigna una producción del saldo de los costos capitalizados de
+desarrollo. El monto de amortización para todo el año se determina al dividir un
+conjunto de costos (costos no amortizados de desarrollo) entre un conjunto de reservas
+(reservas probadas al fin de año, mas la producción del año), multiplicando el resultado
+por la producción del año.
+\nh) Abandono\nUna unidad contable se considera abandonada cuando:\n
+-No se ha descubierto en la unidad contable un yacimiento explotable desde
+el punto de vista comercial;\n
+-No se llevará a cabo ninguna actividad significativa de exploración en tal
+unidad contable en un futuro próximo.\n
+-Una unidad contable puede ser considerada abandonada para propósitos
+contables, aún a pesar de que los títulos legales relacionados con esta
+hubieran sido retenidos. La pérdida del título legal significa abandono."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="DECIDE:\n
+Adoptar los siguientes principios contables para la minería nacional:\n1. UNIDAD CONTABLE\n
+Se entiende por unidad contable la combinación individual de un yacimiento con su o
+sus particulares sistemas de explotación, En la unidad contable se acumularán los
+costos que posteriormente habrán de aparearse con los ingresos que resulten de la
+comercialización de los minerales producidos en dicha unidad contable.
+\n2. COSTO DE PROSPECCION
+\nLos costos de prospección deberán ser cargados a resultados en la medida que se
+incurran.
+\n3.- COSTOS DE ADQUISICION
+\nLos costos de adquisición deberán ser capitalizados y mantenidos sin amortizar hasta
+que se decida sobre ellos de acuerdo con otras consideraciones de esta decisión.
+\n4. COSTOS DE EXPLORACION Y DESARROLLO
+ \n4.1. Capitalización de costos de exploración y desarrollo
+Los costos de exploración y desarrollo incurridos para desarrollar nuevos
+yacimientos, expandir la capacidad de las minas en operación o desarrollar
+reservas mineras sustancialmente en avance de producción actual, deberán ser
+capitalizados y mantenidos sin amortizar hasta que se decida sobre ellos de
+acuerdo con otras consideraciones de esta Decisión. Los costos de exploración y
+desarrollo incurridos para mantener la producción actual deberán ser cargados a
+resultados en la medida en que se realicen.
+\n4.2. La venta de minerales antes de que comience la producción comercial
+El producto neto resultante de la venta de minerales antes de que comience la
+producción comercial deberá ser tratado como una reducción en los costos
+capitalizados de adquisición, exploración y desarrollo.
+\n5. TRATAMIENTO POSTERIOR DE LOS COSTOS CAPITALIZADOS DE
+ADQUISICION EXPLORACION Y DESARROLLO
+\n5.1 Abandono
+Cuando una unidad contable es abandonada, todos los costos capitalizados de
+adquisición, exploración y desarrollo relacionados a tal unidad contable, deberán
+ser castigados en la gestión en la cual ocurre el abandono.
+\n5.2 Producción Comercial
+Los costos capitalizados de adquisición, exploración y desarrollo asociados con
+las unidades contables en la producción comercial deberán ser amortizados
+utilizando el método de la unidad de producción, salvo que no se cuente con
+cálculos de reservas probadas, en cuyo caso se utilizará, temporalmente, el
+método de amortización de línea recta.
+\n5.3 Limitación de los costos capitalizados
+Los costos capitalizados de adquisición, exploración y desarrollo, asociados con
+una unidad contable, deberán ser revisados periódicamente para asegurar que
+tales costos no excedan del valor estimado de aquella unidad contable.
+Los costos capitalizados en exceso al valor estimado de la unidad contable,
+deberán ser castigados en la gestión en que se determine la existencia de tal
+exceso."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="6. VALUACION DE INVENTARIOS DE MINERALES
+\nLos inventarios de minerales deberán ser valuados después de completar el proceso
+de concentración .
+Los inventarios de minerales deberán ser valuados al costo actualizado según el
+procedimiento descrito en los párrafos 6, 8 o 9 de la Decisión No 6.
+\n7. RECONOCIMIENTO Y CONTABILIZACION DE LAS VENTAS
+\n7.1 Reconocimiento de las ventas
+\nLas ventas minerales deben reconocerse cuando dichos minerales han sido
+despachados y consignados al comprador.
+\n7.2 Contabilización de las ventas
+\nEl registro contable de la venta se efectuará tomando como base el precio
+estimado de venta a la fecha del despacho.
+Cuando el precio de venta hubiera sido definitivamente convenido, se tomará
+dicho precio.
+\n7.3 Ajuste de precio de venta a la fecha de emisión de los Estados Financieros
+\nLas ventas de minerales, cuya liquidación final no se produjo hasta el cierre de la
+gestión, deberán valorarse a los precios estimados al cierre de la gestión,
+excepto en aquellos casos donde a la fecha de la emisión de los estados
+financieros se conozca una baja en las cotizaciones que produzcan una pérdida
+que debe ser reconocida contablemente dentro de la gestión.
+Si antes de la emisión de los estados financieros se produjo la liquidación final de
+la venta, el resultado definitivo sea utilidad o pérdida, debe ser reconocido dentro
+de la gestión.
+\n7.4 Variaciones de los estimados
+\nLas variaciones entre:
+\na) Las ventas y los costos de comercialización estimados para las ventas
+reconocidas en años anteriores; y
+\nb) Las ventas y los costos de comercialización reales efectuados en el año en
+curso para dichas transacciones, deberán ser tratados como ajustes de las
+ventas y costos de comercialización del año en curso.
+\n8. EXPOSICION
+\nEl balance general y el estado de ganancias y pérdidas de una empresa minera
+deberán exponer separadamente, como mínimo los siguientes ítems:
+\na. Balance
+\n- Inventarios de minerales valorados a su costo actualizado.
+\n- Inventarios de minerales valorados a su costo actualizado.
+\n- Inventarios de minerales valorados a precio de mercado.
+\n- Costos capitalizados de adquisición, exploración y desarrollo de propiedades en
+producción comercial.
+\n- Costos capitalizados de adquisición, exploración y desarrollo de propiedades
+que no se encuentren en la etapa de producción comercial.
+\nb. Estado de ganancias y pérdidas
+\n- Ventas de Minerales.
+\n- Costo de comercialización.
+\n- Costo de minerales vendidos.
+\n- Depreciación (no incluida en el costo de minerales vendidos).
+\n- Amortización de costos de amortización, exploración y desarrollo.
+\n- Gastos administrativos.
+\n- Gastos financieros.
+\n- Costos de prospección y costos de adquisición, exploración y desarrollo
+castigados.
+\n- Impuestos.
+\nLa exposición de los principios contables para la industria minera contenida en esta
+Decisión es muy suscita y ha sido extractada, básicamente, del estudio elaborado por
+la Comisión que preparó el Proyecto de Contabilidad Minera"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="9. ACTUALIZACION
+\nLos estados financieros de la industria minera deberán prepararse en moneda
+constante siguiendo los lineamientos de la Decisión No 6 de este Consejo Técnico.
+\nAPROBACION:
+\nEste pronunciamiento modificatorio de la Decisión No 4, fue aprobado por el Consejo
+Técnico de Auditoría y Contabilidad el 13 de enero de 1987, con el voto de los consejeros
+Francisco Muñoz (Presidente del Consejo), Fabián Rabinovich (Presidente de la Comisión
+de Principios de Contabilidad), Víctor Tellería, Bernardo Elsner, Hugo Berthin Amengual,
+Randolfo Pinto, Francisco Meave, Martín Calani, Augusto Ortega, Ruben Centellas,
+Guillermo Alcázar Jiménez y Willy Calle.
+\nLa Decisión fue sancionada por la Comisión Directiva del Colegio de Profesionales en
+Ciencias Económicas de Bolivia el 26 de febrero de 1987.
+\nSanción del Comité Ejecutivo Nacional del Colegio de Auditores de Bolivia
+\nLa presente norma ha sido sancionada por el CEN del Colegio de Auditores de Bolivia,
+en su sesión ordinaria No CAUB 30-94 de fecha 16 de junio de 1994, de conformidad a
+las atribuciones contenidas en los Estatutos del Colegio."
+                android:textSize="18sp"
+                android:padding="8dp" />
+            <!-- Puedes agregar más TextViews aquí si es necesario -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

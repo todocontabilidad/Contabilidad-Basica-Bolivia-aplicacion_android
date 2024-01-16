@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoverde8"
+    tools:context="com.datos.contabilidadbasicabolivia.Informacion_autor">
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <!-- Contenedor LinearLayout para los elementos desplazables -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView con texto largo que puede desplazarse verticalmente -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/numero_dos"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textColor="#A93226"
+                android:text="DESARROLLADOR"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:padding="8dp"
+                android:textColor="#303F9F"
+                android:gravity="center"
+                android:text="Developer Data"
+                android:textSize="22sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Primera fila con dos columnas -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="8dp"
+                        android:text="Nombre:"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:padding="8dp"
+                        android:text="Java Developer Apaza Bautista, Carlos Alfredo"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imagenView"
+                        android:layout_width="350dp"
+                        android:layout_height="350dp"
+                        android:layout_weight="2.5"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/amigos" />
+
+                </TableRow>
+                <!-- Segunda fila con dos columnas -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="8dp"
+                        android:text="Experiencia y Capacidades:"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:padding="8dp"
+                        android:text="Application Developer (2018-2020): I worked at a leading software company specializing in the development of enterprise applications in Java. During my tenure, I was involved in the creation and maintenance of human resources and accounting management systems. I implemented efficient and scalable solutions using Java technologies such as the Spring Framework and Hibernate.
+
+Senior Software Engineer in Game Development (2020-Present): Currently, I am part of a game development team where we leverage Java for creating mobile and desktop applications. My responsibilities include designing game systems, optimizing performance, and solving complex problems."
+                        android:textSize="16sp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="8dp"
+                        android:text="Educación:"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:padding="8dp"
+                        android:text="mathematician"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="8dp"
+                        android:text="Lugar de Nacimiento"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:padding="8dp"
+                        android:text="La Paz, Bolivia"
+                        android:textSize="16sp" />
+                </TableRow>
+            </TableLayout>
+
+            <!-- Segundo TextView -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:padding="8dp"
+                android:text=""
+                android:textSize="22sp" />
+
+            <!-- Puedes agregar más elementos aquí si es necesario -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+

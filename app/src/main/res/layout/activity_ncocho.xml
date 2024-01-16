@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAB7B8"
+    tools:context=".NCOcho">
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="8dp"
+                android:text="NORMA DE CONTABILIDAD Nº 8
+\nCONSOLIDACION DE ESTADOS FINANCIEROS
+\nDECISION No 11
+\n(Originada en la Recomendación No 10)"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="VISTO:
+\nEl trabajo de la Comisión de Principios de Contabilidad de este Consejo, y
+\nCONSIDERANDO :
+\nQue es necesario establecer normas para la consolidación de estados financieros.
+\nSE DECIDE:
+\nAdoptar las siguientes normas para la consolidación de estados financieros.
+\nA. GENERAL
+\nLa consolidación de los estados financieros de sociedades que forman parte de un grupo económico
+procede, siempre que exista control permanente por parte de una de las sociedades. Los estados
+financieros consolidados resultantes de aplicar la metodología que se recomienda en este
+pronunciamiento serán los estados financieros de la sociedad controlante, presentados de acuerdo
+con principios de contabilidad generalmente aceptados. Sin embargo, si por disposiciones legales o
+tributarias la sociedad consolidante debiera presentar a autoridades oficiales o fiscales un estado
+financiero sin consolidar, esto podrá hacerse, informando esta situación en una nota a los estados
+financieros.
+\nSe entiende por control permanente a :
+\na) La tenencia directa o indirecta de acciones o cuotas de la otra sociedad que represente más del
+50% del paquete accionario.
+\nb) La influencia significativas en la decisiones de la sociedad que le otorgue votos suficientes para
+influir en la aprobación de su estados financieros y en la distribución de ganancias.
+\nB. ASPECTOS FUNDAMENTALES
+\n1. El objetivo de los estados financieros consolidados es presentar la situación patrimonial, los resultados
+de operaciones, las variaciones en el patrimonio neto y la evolución de las actividades de financiación
+e inversión de un grupo de sociedades relacionadas, en razón de un control y propiedad comunes,
+como si el grupo fuera una sola sociedad,, con una o más sucursales o divisiones.
+Los estados consolidados suplen una deficiencia de la información contable suministrada por los
+grupos económicos y contribuyen significativamente a una mejor apreciación de su tamaño, volumen
+de operaciones, situación patrimonial y financiera y resultado de sus operaciones.
+\n2. El método de consolidación consiste básicamente en el reemplazo del rubro inversiones en los estados
+financieros de la sociedad consolidante, por los activos y pasivos de las sociedades a consolidar. De
+igual manera, el resultado de las inversiones en sociedades controladas, es sustituido por los ingresos
+y egresos de las sociedades a consolidar.
+\n3. En los casos en que la participación en las sociedades consolidadas no alcance al total, debe
+segregarse la porción correspondiente a los otros propietarios (participación minoritaria). Dicha partida
+debe ser expuesta en el balance general consolidado como un capítulo adicional, incluida en el pasivo
+inmediatamente antes del patrimonio neto.
+La porción del resultado del ejercicio atribuible a la participación minoritaria, será presentada en el
+estado de ganancias y pérdidas consolidado como último rubro a efectos de determinar el resultado
+neto consolidado del ejercicio.
+\n4. Como regla general, los estados financieros de las sociedades comprendidas en el capítulo A de esta
+Decisión deben ser consolidados. El hecho de que las sociedades comprendidas en el mencionado
+capítulo A desarrollen actividades heterogéneas, no se considera una razón para omitirlas de la
+consolidación."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Si una sociedad controlada desarrollara actividades de negocio tan diferentes que su consolidación
+pudiera distorsionar la comprensión de la información suministrada, los activos y pasivos de esta
+actividad diferente deberán ser expuestos en el balance general, en forma separada del resto de los
+activos y pasivos consolidados. Idéntico criterio deberá seguirse en la exposición del estado de
+ganancias y pérdidas.
+\n5. Es preferible que los estados financieros de la sociedad consolidante y los de las sociedades
+consolidadas tengan las mismas fechas de cierre o que la diferencia entre ambas fechas no supere los
+tres meses. Si se consolidan estados financieros de fechas diferentes (menos o más de tres meses),
+se debe considerar el efecto de las transacciones o eventos importantes que hayan ocurrido entre la
+fecha de cierre de los estados financieros de las sociedad consolidada y la fecha de cierre de los
+estados financieros de la sociedad consolidante o viceversa.
+Es importante hacer notar que los estados financieros que se utilicen para la consolidación deben ser
+los mismos que la sociedad controlante o consolidante utilizó para valuar sus inversiones en estas
+empresas al valor patrimonial proporcional ( párrafos 3.2. ó 3.3. de la decisión No. 10 de este Consejo
+Técnico - Actual Norma de Contabilidad No. 7, NC 7).
+\nUna vez aplicado uno de los criterios respecto de la fecha de cierre, para efectos de consolidación, se
+deberá mantener el mismo criterio durante la vida del ente exponiendose en nota a los estados
+financieros los efectos de cualquier cambio en este sentido.
+Cabe hacer notar que en el caso en que para efectos de consolidación se considere un estado
+financiero de una sociedad a consolidar, a una fecha de cierre de su ejercicio fiscal, los estados
+financieros que se utilicen que se utilicen para la consolidación deberán incluir el estado de ganancias
+y pérdidas comprendiendo un período de doce meses.
+\n6. Es también necesario que la sociedad controlante y las sociedades a consolidar utilicen los mismos
+criterios contables para la valuación de sus activos y pasivos y para la determinación de sus
+resultados.
+\n7. En nota a los estados financieros consolidados deben mencionarse las sociedades cuyos estados
+financieros han sido consolidados, su actividad principal y la fecha de cierre o la de los estados
+financieros especiales, si correspondiera.
+\nC. ASPECTOS PARTICULARES
+\n1. Requisitos o condiciones para aplicar la consolidación de estados financieros
+\nLa consolidación será aplicada cuando se presenten las siguientes situaciones:
+\n1.1. Existencia de control permanente y real por parte de la sociedad consolidante, ya sea directa
+o indirectamente.
+\nLa tenencia de acciones o cuotas de capital puede determinar el control de una sociedad. La
+práctica contable actual ha fijado, como primera condición para proceder a la consolidación,
+la tenencia por parte de una sociedad de una proporción del capital social otra que otorgue
+más del 50% del total de votos, ya sea en forma directa o indirecta.
+Si bien es cierto que con porcentajes menores puede tenerse el control de una sociedad (por
+ejemplo en el caso que la tenencia del resto de capital social esté distribuido entre muchos
+accionistas minoritarios) se ha preferido mantener este criterio a fin de evitar, en los posible,
+juicios subjetivos acerca de la existencia o no del control cuando los porcentajes son del
+50% o menores.
+\n1.2. Propiedad en forma directa o indirecta de un porcentaje de capital superior al 50%.
+\nDadas ciertas circunstancias, la condición 1.1 puede cumplirse con porcentajes relativamente
+reducidos de capital. Se ha considerado que consolidando dicha sociedad con otra de propiedad del
+accionista controlante se desvirtúa el propósito básico enunciado anteriormente de suministrar una
+más útil información.
+\nPara el cálculo del porcentaje deberá tenerse en cuenta si conforme a sus condiciones de emisión, las
+acciones preferidas deben computarse, ya que desde el punto de vista de la realidad económica podrían participar más de la condición de pasivo que de la de capital"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="
+2. Causa para no incluir sociedades en la consolidación
+\n2.1 .No se consolidarán sociedades cuando no se presenten las condiciones expuestas en el numeral c.1,
+anterior.
+\n2.2 .Se considera que no se cumple la condición C.1.1 - control permanente y real - cuando se observe:
+\n- Control temporario, o tendiente a serlo.
+\n- Control no ejercido por el propietario mayoritario (sociedades intervenidas, en concurso
+preventivo, etc.).
+\n- Subsidiarias cuyas operaciones se encuentren radicadas en otros países en los que existan
+condiciones a largo plazo de severas restricciones respecto a la transferencia de fondos, las
+cuales impidan la libre disponibilidad por parte de la controlante o consolidante sobre los
+activos y resultados de estas subsidiarias.
+\n3. Valuación de las inversiones permanentes en sociedades controladas en los libros de la sociedad
+consolidante
+\nPara la valuación de las inversiones permanentes en sociedades controladas, hayan o no sido
+incluidas en el proceso de consolidación, deberá aplicarse el método de valor patrimonial
+proporcional incluido en la Decisión Nº 10 de este Consejo Técnico “Valuación de Inversiones
+Permanentes” (Actual Norma de Contabilidad Nº 7, NC7).
+\n4. Requisitos contables necesarios para la aplicación del método.
+\n4.1 Los estados financieros de las sociedades a consolidar o consolidadas que se utilizan para la
+consolidación, serán los mismos que la sociedad controlante o consolidante utilizó para valuar
+sus inversiones en esas empresas al valor patrimonial proporcional (párrafos 3.2 ó 3.3 de la
+\nDecisión Nº 10 de este Consejo Técnico - Actual Norma de Contabilidad Nº 7, NC7).
+Una vez aplicado uno de los criterios respecto de la fecha de cierre, para efectos de
+consolidación, se deberá mantener el mismo criterio durante la vida del ente revelándose en nota
+a los estados financieros los efectos de cualquier cambio en este sentido.
+Cabe hacer que en el caso en que para efectos de consolidación se considere un estado
+financiero de una sociedad a consolidar, a una fecha de cierre distinta de la fecha de cierre de
+ejercicio fiscal, los estados financieros que se utilicen para la consolidación deberán incluir el
+estado de ganancias y pérdidas comprendiendo un período de doce meses.
+\n4.2 Resulta también necesario que las sociedades a consolidar utilicen los mismos criterios de
+valuación para activos y pasivos de igual naturaleza, así como para la determinación de
+resultados, a fin de lograr su medición sobre bases uniformes. Esto implica que los estados
+financieros a consolidar deberán cumplir con la Decisión Nº 6 de este Consejo Técnico . (Actual
+Norma de Contabilidad Nº 3. NC 3)
+\n4.3 A efectos de la consolidación, todos los estados financieros a ser consolidados, deberán ser
+clasificados y expuestos con criterios homogéneos.
+\n4.4 Si se consolidan estados financieros preparados a fechas distintas de la de cierre de la sociedad
+consolidante, sus importes deberán ser corregidos para considerar los efectos de la inflación y las
+transacciones o eventos importantes ocurridos entre ambas fechas, tal como se debe hacer
+cuando se aplica el método de valuación al valor patrimonial proporcional según la Decisión Nº 10
+de este Consejo Técnico (Actual Norma de Contabilidad Nº7, NC 7)
+D. PAUTAS PARA LA CONSOLIDACION DE ESTADOS FINANCIEROS
+\n1. Eliminación de criterios y deudas entre sociedades integrantes del ente consolidado
+Frecuentemente se producen transacciones, tanto comerciales como financieras, entre las
+sociedades que integran el ente consolidado, generado de esta manera saldos recíprocos. Estos
+saldos, en sí mismos, no constituyen sino meras transferencias dentro del ente consolidado y por lo"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="tanto los mismos pierden toda significación dentro de los estados financieros consolidados. Por ello,
+es necesario realizar las eliminaciones recíprocas correspondientes a fin de exponer solamente en
+dichos estados financieros los saldos provenientes de operaciones realizadas con terceros ajenos al
+ente consolidado.
+\nA la fecha de la consolidación, es necesario contabilizar todas las partidas en tránsito provenientes
+de operaciones entre sociedades integrantes del
+nte consolidado, a efectos de asegurar su adecuada inclusión en los registros de las sociedades
+antes mencionadas, en los períodos correspondientes. Con ello se evitarán diferencias en los
+saldos de cuenta recíprocos entre dichas sociedades, originados por registraciones efectuadas en
+dichos períodos.
+\n2. Eliminación de resultados contenidos en saldos finales de activos
+
+\nTal como fuera señalado en 1., las sociedades integrantes del ente consolidado pueden realizar
+entre sí operaciones de distinta naturaleza, las que generalmente arrojan un resultado para la
+sociedad vendedora, prestataria del servicio, etc. Dichos resultados son reconocidos en los estados
+financieros individuales de la respectiva sociedad vendedora, mientras que en los estados
+financieros consolidados serán considerados como resultados en la medida en que las operaciones
+efectuadas entre la sociedades integrantes del ente consolidado estuvieran definidamente
+realizadas estas operaciones se considerarán realizadas cuando hayan sido imputadas a los
+resultados del ejercicio en que se denegaron, como consecuencia de haber trascendido a terceros
+(venta), o haber sido apropiados a dichos resultados a fin de lograr una adecuada compatibilización
+de ingresos y costos por consumo de activos a través de depreciación o amortización, de acuerdo
+con principios de contabilidad generalmente aceptados. Por lo tanto, a fin de evaluar los saldos
+finales de los activos provenientes de estas operaciones se deberá eliminar la porción de resultados
+cuando se trate de ventas estaciones de servicio, etc., realizadas por la sociedad consolidante o
+sociedades consolidadas entre ellas.
+\nEsta eliminación deberá efectuarse en la proporción correspondiente a la participación mayoritaria
+de acuerdo con la definición de participación minoritaria incluido en el numeral f-5.
+\nA continuación se desarrollan los pasos requeridos para las respectivas eliminaciones e inventarios,
+activos fijos y otros:
+\n2.1 Ganancia contenida en la existencia final de inventarios adquiridos por una sociedad
+consolidada a la sociedad consolidante, por la sociedad consolidante a una sociedad
+consolidada o entre sociedades consolidadas.
+Debe eliminarse la porción de ganancia atribuyente a la participación mayoritaria contenida en
+dicha existencia final, de acuerdo con lo mencionado en el numeral 2. En efecto, dicha
+eliminación será efectuada ya que la operación de venta de inventarios en la proporción
+atribuible a la participación mayoritaria se asimila a una transferencia interna entre sectores de
+una misma sociedad, la cual debe efectuarse al costo respectivo y no al precio de venta de
+acuerdo con principio de contabilidad generalmente aceptados.
+Por el contrario, debe reconocerse como ganancia derivada de operaciones trascendidas a
+terceros la porción atribuible a la participación minoritaria. Dicho resultado se mantendrá dentro
+del costo de la existencia final de los inventarios y dentro de la partida representativa de la
+participación minoritaria.
+2.2 Pérdidas contenidas en la existencia final de inventarios
+Dichas pérdidas recibirán un tratamiento análogo al mencionado en 2.1. cuando no obedezcan
+a disminuciones reales en los valores de mercados de los bienes adquiridos.
+\n2.3 Ganancias contenidas en activos fijos adquiridos por una sociedad consolidada a la sociedad
+consolidante, por la sociedad consolidante a una sociedad consolidada o entre sociedades
+consolidadas.
+\nEn estos casos, debe eliminarse la porción de la ganancia atribuible a la participación
+mayoritaria contenida en dichos activos por lo mencionado en el punto 2. Cuando se trate de
+activos fijos sujetos a depreciación, deberá ser eliminado así mismo al exceso de preparación
+proveniente de la diferencia entre el costo de la sociedad vendedora y el respectivo de la
+compradora en la proporción atribuible a la participación mayoritaria. El ajuste se imputara,
+según corresponda, a los resultados del ejercicio o a la existencia final de inventarios. Como
+consecuencia de lo antedicho queda neutralizado el resultado proveniente de dicha
+transacción, en la correspondiente proporción."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="La porción de ganancia atribuible a la participación mayoritaria se mantendrá dentro del costo
+del activo fijo y, consiguientemente, formará parte de la depreciación del ejercicio.
+Los activos fijos vendidos por una sociedad a otra, cuando ambas forman parte del ente
+consolidado, deberán continuar con el régimen de vida útil y depreciación asignada inicialmente
+por la sociedad vendedora. Dicha venta no tiene efecto alguno a los fines de la consolidación,
+por lo que debe mantenerse el régimen de vida útil y depreciación asignada, de acuerdo con
+principios de contabilidad generalmente aceptados. No obstante lo antedicho, si se determinara
+alguna modificación en la vida útil de los activos fijos vendidos, ya sea por un cambio en la
+modalidad de uso o por incorrecta estimación de la vida útil anterior, la corrección de la vida útil
+será adecuada de acuerdo con principios de contabilidad generalmente aceptados.
+\n2.4 Pérdida contenidas en activos fijos.
+Se dará análogo tratamiento al indicado en 2.2. respecto a la depreciación del ejercicio, será de
+aplicación lo mencionado en 2.3., en sentido inverso.
+\n2.5 Ajustes en la existencia final de inventarios debido a ganancias o pérdidas contenidas en
+activos fijos.
+\nEn aquellos casos en que los activos fijos adquiridos a sociedades integrantes del ente
+consolidado sean utilizados por la sociedad adquiriente en la producción de inventarios, la
+existencia final de dichos inventarios en los estados financieros consolidados estará
+sobrevaluada o subvaluada. Dicha sobrevaluación o subvaluación surge de la mayor o menor
+depreciación de los activos fijos que contienen la porción de ganancia o pérdida atribuible a la
+sociedad vendedora que, a los fines de la consolidación, debe ser eliminada, de acuerdo a lo
+mencionado en 2.3. A fin de corregir dicha sobrevaluación o subvaluación deberá eliminarse o
+agregarse a la existencia final de los inventarios, la porción de ganancia o pérdida antes
+mencionada.
+\n2.6 Resultados contenidos en el saldo final de otros activos.
+Deberán ser eliminados de manera análoga a lo mencionado en 2.1. a 2.5., incluyendo su
+amortización en los casos en que correspondiera.
+\n2.7 Resultados contenidos en saldos finales de activos resultantes de operaciones entre
+sociedades consolidadas.
+Serán también de aplicación las pautas anteriormente mencionadas.
+\n2.8 Saldos finales de activos resultantes de compraventas entre sociedades integrantes del ente
+consolidado, originados en operaciones previas a la fecha de obtención de participaciones
+significativas por parte de la sociedad consolidante.
+\nEn estos casos, dichos saldos están adecuadamente valuados en los estados financieros
+consolidados, ya que las operaciones de compra-venta fueron realizadas por sociedades
+asimilables a terceros ajenos al ente consolidado.
+\n3. Eliminación de resultados entre sociedades integrantes del ente consolidado.
+A efectos de cumplir con los objetivos de los estados financieros consolidados, según fuera definido
+en B.1., será necesario proceder a la eliminación mencionada para exponer en el estado de ganancias
+y pérdidas consolidado solamente aquellos resultados provenientes de operaciones con terceros
+ajenos al ente consolidado. A continuación se detallan los pasos requeridos para efectuar las
+respectivas eliminaciones.
+\n3.1 Resultados provenientes de inversiones en sociedades consolidadas.
+\nEsta partida representa la porción de resultados de la sociedad consolidada a la que tiene
+derecho la consolidante, en función de su participación. Por lo tanto, ésta habrá de eliminarse
+incorporando al estado de ganancias y pérdidas de la sociedad consolidante todas las partidas
+del estado de ganancias y pérdidas de la consolidada, así como la porción correspondiente a la
+participación minoritaria, si la hubiere. esta incorporación y consecuente eliminación se efectuará
+sólo desde el momento en que se obtenga la mayoría de votos y capital, cuando esa obtención
+se produzca durante el ejercicio. Posteriormente se efectuarán las eliminaciones"
+                android:textSize="18sp"
+                android:padding="8dp" />
+            <!-- Puedes agregar más TextViews aquí si es necesario -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="3.2 Venta de inventarios.
+Dado que la operación se registra como venta en los registros de la sociedad vendedora, y como
+compra en los de la sociedad compradora, con anterioridad a realizar la eliminación será
+necesario asegurarse que dichas transacciones estén correctamente contabilizadas en los
+registros de ambas sociedades en los períodos correspondientes; en caso contrario, será
+menester efectuar el correspondiente ajuste.
+Una vez realizado el procedimiento antes mencionado, se eliminarán los importes de ventas y de
+compras correspondientes a las sociedades involucradas en las respectivas transacciones.
+\n3.3 Determinación del costo consolidado de las mercaderías vendidas.
+\nDicha partida resultará de la suma de los importes que por tal concepto surjan de los estados
+financieros individuales de las sociedades integrantes del ente consolidado, menos los importes
+correspondientes a las operaciones de compra venta entre dichas sociedades. el importe será
+ajustado por las ganancias o pérdidas contenidas en las existencias iniciales y finales de los
+inventarios resultantes de operaciones realizadas entre sociedades integrantes del ente
+consolidado.
+\nEn el caso de sociedades industriales será necesario, además de lo mencionado anteriormente,
+ajustar los gastos de fabricación por la depreciación cargada al costo de producción, así como
+por los gastos correspondientes a operaciones realizadas entre sociedades integrantes del ente
+consolidado, en la porción del resultado contenido en el costo del respectivo bien de uso
+adquirido o del servicio recibido.
+\n3.4 Venta de Activos Fijos.
+Según se menciona en 2.3 y 2.4., el resultado proveniente de la venta de activos fijos se elimina
+contra el resultado incluido en el costo de adquisición del bien respectivo. Por lo tanto,
+corresponde entonces eliminar el resultado de la venta en los libros de la sociedad vendedora,
+así como en los de la compradora. Como consecuencia de ello se deberá ajustar la depreciación
+cargada a resultados o al costo de producción en los libros de esta última sociedad.
+\n3.5 Otras operaciones.
+Todas las demás operaciones que originan resultados (tales como intereses, alquileres,
+honorarios, etc.) realizadas entre sociedades integrantes del ente consolidado, deberán ser
+también eliminadas.
+\n4. Algunos otros aspectos a considerar en el proceso de consolidación.
+\n4.1 Cambios en el tratamiento contable de partidas a incluir en los estados financieros consolidados.
+\nPuede ocurrir que ciertas partidas diferidas en los estados financieros individuales de las
+sociedades sean consideradas como un gasto en los estados financieros consolidados. Esto se
+debe a que los mismos exponen la situación patrimonial y los resultados de un ente más vasto que
+el de la sociedad consolidada dentro del cual dichos gastos puedan, por algún motivo, no
+considerarse como para ser absorbidos por ingresos futuros pertenecientes a dicho ente
+consolidado. Lo expuesto justifica el cambio de criterio en el tratamiento de esta partida.
+Un ejemplo podría ser el de gastos de investigación y desarrollo registrados como cargos diferidos
+por la sociedad consolidada pero que bien podrían ser cargados a resultados por la sociedad
+consolidante por algún motivo especial.
+\n4.2 Participación minoritaria.
+\nEn los casos en que la participación en las sociedades consolidadas no alcancen al total, deberá
+segregarse la porción correspondiente a los otros propietarios (participación minoritaria). Dicha
+participación representa, desde el punto de vista de la realidad económica, un compromiso por
+parte del propietario principal frente al resto de los propietarios.
+Solamente la porción de resultados atribuible a la participación mayoritaria en las transacciones
+entre sociedades integrantes del ente consolidado deberá ser eliminada al efectuar la"
+                android:textSize="18sp"
+                android:padding="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="consolidación, ya que la porción atribuible a la participación minoritaria debe considerarse como
+un resultado trascendido a terceros, como se expuso en detalle en 2.
+La participación minoritaria será computada antes de las eliminaciones y ajustes de consolidación.
+\nE. EXPOSICION.
+\nLos estados financieros consolidados deberán ser expuestos siguiendo los criterios y normas
+establecidas en la Decisión Nº 6 emitida por este Consejo Técnico, así como en las posteriores que
+emita el mismo, (Actual Norma de Contabilidad Nº 3, NC 3).
+Los estados consolidados deberán indicar claramente su condición de tales y las sociedades que
+integran el ente consolidado, así como también los criterios adoptados a efectos de la aplicación del
+método de consolidación.
+\nEl monto correspondiente a la participación minoritaria será expuesto en el balance general
+consolidado como una partida adicional incluida en el pasivo, bajo esa denominación o similar,
+inmediatamente antes del patrimonio neto.
+\nLa porción del resultado del ejercicio atribuible a la participación minoritaria, será presentada en el
+estado de ganancias y pérdida consolidado como una última partida, a fin de determinar el resultado
+neto consolidado del ejercicio.
+\nCuando una sociedad consolidada con participación minoritaria arroje pérdida, la porción de dicha
+pérdida correspondiente a la participación minoritaria será expuesta sumada al resultado del ejercicio.
+\nF. DEFINICION DE CONCEPTOS BASICOS
+\n1. Sociedad Consolidante o controlada
+\nEs aquella que elimina en sus estados financieros las cuentas que representan su inversión en las
+sociedades consolidadas, sustituyéndola por la inclusión de los activos, pasivos y resultados de
+estas últimas, netos de las eliminaciones mencionadas en el capítulo D.
+\n2. Sociedad consolidada o controlada
+\nEs aquella cuyos activos, pasivos y resultados de las operaciones, netos de las eliminaciones
+mencionadas en el capítulo D., son incorporados a los conceptos análogos en la sociedad
+consolidante, a efectos de la preparación de los estados financieros consolidados.
+\n3. Ente consolidado
+\nEs el grupo económico constituido por la sociedad consolidante y las consolidadas.
+
+\n4. Estados financieros consolidados
+\nSon los resultantes de la aplicación del método de consolidación y tienen por objeto exponer la
+situación patrimonial, los resultados de operaciones, las variaciones en el patrimonio neto y la
+evolución de las actividades de financiación e inversión del ente consolidado.
+\n5. Participación Minoritaria
+\nEs el derecho de los accionistas minoritarios sobre el patrimonio neto de la sociedad consolidada,
+antes de cualquier ajuste o eliminación requeridos por la aplicación del método de consolidación.
+\n6. Tenencia directa
+\nSe entiende por tenencia directa cuando la sociedad consolidante posee acciones de la sociedad
+consolidada.
+\n7. Tenencia indirecta
+\nSe entiende por tenencia indirecta cuando la misma se da a través de una sociedad o persona. Por
+ejemplo, si una sociedad consolidada posee acciones en otra sociedad, la consolidante tiene
+tenencia indirecta de esta última."
+                android:textSize="18sp"
+                android:padding="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="G. VIGENCIA DE ESTE PRONUNCIAMIENTO
+\nEl presente pronunciamiento técnico tendrá vigencia para los ejercicios anuales completos que se inicien
+a partir del 1º de enero de 1992.
+\nAPROBACION
+\nEsta Decisión fue aprobada por el Consejo Técnico de Auditoría y Contabilidad en su reunión del 31 de
+marzo de 1992 con el voto favorable de todos los miembros, la Decisión fue sancionada por la Comisión
+Directiva del Colegio de Profesionales en Ciencias Económicas de Bolivia el 6 de mayo de 1992.
+SANCIÓN DEL COMITÉ EJECUTIVO NACIONAL DEL COLEGIO DE AUDITORES DE BOLIVIA.
+La presente norma ha sido sancionada por el CEN del Colegio de Auditores de Bolivia, en su sesión
+ordinaria Nº CAUB 30/94 de fecha 16 de junio de 1994, de conformidad a las atribuciones contenidas en
+los Estatutos del Colegio."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

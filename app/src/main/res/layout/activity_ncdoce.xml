@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAB7B8"
+    tools:context=".NCDoce">
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="8dp"
+                android:text="NORMA DE CONTABILIDAD No 12
+\nTRATAMIENTO CONTABLE DE OPERACIONES EN
+\nMONEDA EXTRAJENRA CUANDO COEXITEN MAS
+\nDE TIPO DE CAMBIO
+\n(Publicación No. 6)"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="El presente informe contiene un análisis del tratamiento contable aconsejable para el registro operaciones
+en moneda extranjera cuando coexisten más de un tipo de cambio para las mismas .en gran parte, el
+mismo está basado en el estudio realizado por la Comisión de Principios de Contabilidad y se considera
+complementario de la Recomendación No. 2 (modificada posteriormente por la Decisión No. 7) del
+Consejo Técnico de Auditoría y Contabilidad.
+\n1. ANTECEDENTES
+\nEl sistema monetario internacional presenta actualmente una situación que hace necesarias
+frecuentes alteraciones de los tipos de cambio entre las distintas monedas. Por otra parte, la realidad
+económica del pías requiere, en ocasiones , de modificaciones del tipo de cambio y a veces, la
+adopción de controles de divisas con la consiguiente aparición de dos o más tipos de cambio. Por otra
+parte, la posibilidad de que en la práctica existan diferentes métodos extranjeras, han hecho resaltar
+los problemas referentes a la conversión de monedas extranjeras a moneda nacional .
+\n1.1. Objetivos
+\nPara el propósito de preparar estados financieros de una empresa, el objetivo de la conversión
+de monedas es el de medir y expresar en pesos bolivianos y de conformidad con principios
+contables generalmente aceptados en Bolivia, los activos, pasivos, ingresos o gastos que se
+hallan denominados en divisas. Por consiguiente, este informe establece normas de
+contabilidad financiera para la contabilización de transacciones en moneda extranjeras, con
+especial énfasis en las conversiones de moneda extranjera a bolivianos.
+\n1.2. Efectos de las modificaciones en las tasas de cambio
+\nLa tasa de cambio, es la relación entre la unidad de una moneda determinada ( en nuestro
+caso el peso boliviano) y el monto de otra moneda. Así el tipo de cambio único del dólar hasta
+el 30 de julio de 1981, era de un peso boliviano por cuatro centavos de dólar (por comodidad se
+acostumbra decir que Sb 25.- equivalen $us 1). En esta última fecha se promulgó el decreto
+supremo No. 18530 que dispone el control de divisas por parte del banco Central de Bolivia, lo
+cual da lugar a que en el mercado paralelo, que no es ilegal, la tasa de cambio del peso
+boliviano disminuyó según los periodos de tiempo que se consideren. La existencia de
+mercados paralelos de divisas. Para reflejar adecuadamente la transacción debe utilizarse la
+tasa de cambio efectivamente pagada.
+\n1.3. Necesidad de la conversión
+\nSi una empresa realiza una transacción inmediata a que requiere a una paga posterior en
+moneda extranjera, es necesario convertirla a la moneda local para registrar la transacción e
+incorporarla posteriormente a los estados financieros, los cuales según el artículo 41 del Código
+de Comercio deben expresar los valores en moneda nacional.
+\n1.4. Transacciones en divisas
+\nUna empresa puede hallarse involucrada en varios tipos de transacciones que requieren su
+liquidación en divisas, entre ellas:
+\n- Comprar o vender el contrato o al crédito mercancías o servicios cuyos se hallan fijados en
+divisas.
+\n- Presentarse o prestar fondos en divisas, cuyos pagos deban realizarse también en moneda
+extranjera.
+\n- Comprar, vender o mantener fondos en divisas.
+\n- Ser parte de un contrato a futuro en moneda extranjera"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="1.5. Etapas de cada transacción
+A su vez, las transacciones en divisas pueden abarcar tres etapas:
+\n- La conversión necesaria para registrar la transacción en la fecha en la cual ésta ocurra.
+\nAjustes posteriores de la porción no liquidad de la transacción, por ejemplo, el monto aún
+pendiente de una deuda, para reflejar la tasa de cambio corriente en las fechas de los
+estados financieros, cuando estos se preparen entre la fecha de la transacción y la fecha de
+su liquidación final.
+\n- Conversión de las divisas a moneda local en la fecha de la liquidación.
+\na) Registro de conversión en la fecha de transacción
+\n- En la fecha de transacción es preciso medir y registra en moneda local el monto de los
+bienes o servicios comprados y vendidos o en su caso, el monto del préstamo recibido o
+concedido y el de la correspondiente deuda o acreencia de la empresa.
+\n- En pesos bolivianos, el monto pendiente de pago en una incorporación o préstamos
+recibidos o el monto pendiente de cobro en una exportación o préstamo otorgado, se verá
+afectado por cualquier modificación en la tasa o tasas de cambio entre el peso boliviano y
+divisa. En consecuencia, existe la posibilidad de que surja una ganancia o una pérdida por
+la diferencia de cambio.
+\nb) Ajuste para los estados financieros
+\n- Si una transacción en moneda extranjera no ha sido completamente liquidad cuando la
+transacción ocurre, los estados financieros que se preparen deben registrar los saldos
+deudores y acreedores pendientes en dicha moneda. Por ello, si un ente tiene una
+“exposición de cambio” a causa de una cuenta a pagar o una cuenta a cobrar que
+requieren liquidarse en divisas, los efectos que pudieran surgir de la misma deben
+contabilizarse a la fecha de preparación de los estados. Sin embargo, cuando existen dos o
+más tasas de cambio diferentes, es posible que al elaborar los estados financieros no se
+conozca, con exactitud, que tipo de cambio será él que se utilice en la liquidación efectiva
+de cuenta. (Si se obtienen divisas del Banco Central, la tasa de cambio será diferente de la
+que se aplica si las divisas se originan del mercado paralelo). En este caso será necesario
+mantener a cuenta contabilizada al tipo de cambio original. Sin embargo, si hubiera un
+conocimiento cierto del tipo de cambio que se utilizará para liquidar la operación, se deberá
+hacer el ajuste correspondiente. Por otra, es necesario que el ente exponga en una nota a
+sus estados financieros, la situación cambiara existente a dicha fecha.
+\nc) Conversión en la fecha de liquidación
+\nEn la fecha de liquidación (pago o cobranza) de una cuenta en divisas es necesario adquirir
+divisas o disponer de divisas existentes en el activo de la empresa para pagarla o recibir
+divisas del deudor. En ambos casos, la conversión debe realizarse a la tasa de cambio
+aplicable a la operación de cuerdo a la fuente de donde provengan las divisas. Es decir, si son
+divisas provenientes del banco Central se utilizará el tipo de cambio fijado por éste y si son
+divisas provenientes del mercado paralelo, se contabilizará el precio efectivamente pagado
+por las mimas.
+\n2. PROCEDIMIENTOS RECOMENDABLES
+\nLas transacciones en divisas y su conversión a moneda nacional deben recibir el tratamiento contable
+que se señala en los párrafos siguientes:
+\n2.1. La compra de divisas ya se trate de las adquiridas a través del sistema bancario o del mercado
+paralelo, se contabilizará al precio efectivamente pagado y en su fecha de adquisición.
+Igualmente, la venta de las divisas se contabilizará en la fecha de venta y a su precio de venta
+efectivo.
+\n2.2.Las divisas adquiridas a diferentes valores, deberán mantenerse dentro del capítulo de
+disponibilidades y su valuación deberá responder a algunos de los criterios utilizables para la
+contabilización de bienes de naturaleza análoga adquiridos a distintos precios. E decir, se utilizará"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="el precio promedio, el de primero entrado-primero salido (PEPS) o el último entrado-primero salido
+(UEPS). A la fecha de los estados financieros se tendrá en cuenta al principio de costo o mercado,
+el que sea menor.
+\n2.3. Si las divisas son utilizadas para la adquisición de otros bienes o del activo, se operará la
+transferencias contable entre las disponibilidades utilizadas y los inventarios, activos fijos y otros
+bienes incorporados. Es decir no se producen diferencias de cambio con esta utilización de
+divisas.
+\n2.4. Si las divisas fueran utilizadas para el pago de gastos, se contabilizarán a los mismos valores en
+que se descargan las disponibilidades en divisas, no produciéndose, por lo tanto, diferencias de
+cambio.
+\n2.5. Si las divisas son Utilizadas para la cancelación de pasivos en moneda extranjera, y otros pasivos
+estaban contabilizados a un tipo de cambio diferente al de las divisas que se utilizan para su
+cancelación, se producirá una diferencia de cambio cuyo tratamiento contable será el indicado en
+la Recomendación No. 2 del Consejo Técnico Nacional de Auditoría y Contabilidad.
+\n2.6. Cuando deban valuarse los saldos de cuentas por cobrar y por pagar en monedas extranjeras y
+oficialmente no exista una disposición que indique que para dichas operaciones deberá cuenta
+deberá efectuarse en base al tipo de cambio oficial vigente a la fecha de los estados financieros.
+En estos casos, en una nota a dichos estados se deberá dejar claramente explicada la situación
+cambiaría existente y la posibilidad de que las cuentas sean liquidadas al tipo de cambio oficial.
+Sin embargo, si hubiera un conocimiento cierto del tipo de cambio que se utilizará para liquidar la
+operación, se deberá hacer el ajuste correspondiente, en cuyo caso será de aplicación la
+Recomendación No. 2 del Consejo Técnico de Auditoría y Contabilidad. Además y como ya es de
+práctica habitual deberá incluirse una nota que señala la “exposición de cambio” a la misma fecha.
+El presente informe ha sido aprobado en reunión del Consejo Técnico de Auditoría y Contabilidad
+celebrada en fecha 5 de noviembre de 1981 con la presencia de los consejeros: Hugo Berthing A.,
+Gonzalo Ruiz B., Bernardo Elsner; Randolfo Pinto; Ángel Castro B.; Luis Franck; Francisco Muñoz,
+Augusto Ortega y Federico Mercado.
+\nSANCIÓN DEL COMITÉ EJECUTIVO NACIONAL D4EL COLEGIO DE AUDITORES DE BOLIVIA
+\nLa presente resolución ha sido sancionada por el CEN del Colegio de Auditores de Bolivia, en su sesión
+ordinaria No. CAUB 30/94 de fecha 16 de junio de 1994 de conformidad a las atribuciones contenidas en
+los Estatutos del Colegio.
+\nDe acuerdo al reglamento interno del CTNAC dependiente del Colegio de Auditores de Bolivia a la fecha,
+se constituye en Norma de Contabilidad NC 12, toda vez que pasó los 90 días de su difusión."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <!-- Puedes agregar más TextViews aquí si es necesario -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

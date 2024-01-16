@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.datos.contabilidadbasicabolivia">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ContabilidadBasicaBolivia"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name=".NCCatorce"
+            android:exported="false" />
+        <activity
+            android:name=".NCTrece"
+            android:exported="false" />
+        <activity
+            android:name=".NCDoce"
+            android:exported="false" />
+        <activity
+            android:name=".NCOnce"
+            android:exported="false" />
+        <activity
+            android:name=".NCDiez"
+            android:exported="false" />
+        <activity
+            android:name=".NCNueve"
+            android:exported="false" />
+        <activity
+            android:name=".NCOcho"
+            android:exported="false" />
+        <activity
+            android:name=".NCSiete"
+            android:exported="false" />
+        <activity
+            android:name=".NCSeis"
+            android:exported="false" />
+        <activity
+            android:name=".NCCinco"
+            android:exported="false" />
+        <activity
+            android:name=".NCCuatro"
+            android:exported="false" />
+        <activity
+            android:name=".PlanCuentasEgresos"
+            android:exported="false" />
+        <activity
+            android:name=".PlanCuentasIngresos"
+            android:exported="false" />
+        <activity
+            android:name=".PlandeCuentaPatrimonio"
+            android:exported="false" />
+        <activity
+            android:name=".PlanCuentaPasivo"
+            android:exported="false" />
+        <activity
+            android:name=".PlanCuentaUno"
+            android:exported="false" />
+        <activity
+            android:name=".Home_segundo"
+            android:exported="false" />
+        <activity
+            android:name=".NCTres"
+            android:exported="false" />
+        <activity
+            android:name=".Informacion_autor"
+            android:exported="false" />
+        <activity
+            android:name=".Ajuste_Contable"
+            android:exported="false" />
+        <activity
+            android:name=".pago_iue"
+            android:exported="false" />
+        <activity
+            android:name=".venta_Activos"
+            android:exported="false" />
+        <activity
+            android:name=".compra_Activos"
+            android:exported="false" />
+        <activity
+            android:name=".NCDosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NCUnoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Principal"
+            android:exported="false" />
+        <activity android:name=".Compras">
+
+            <!-- Configuración de la actividad -->
+        </activity>
+        <activity android:name=".Ventas">
+
+            <!-- Configuración de la actividad VentasActivity -->
+        </activity>
+        <activity android:name=".Liquidacion">
+
+            <!-- Configuración de la actividad VentasActivity -->
+        </activity>
+        <activity android:name=".DevolucionCompras">
+
+            <!-- Configuración de la actividad VentasActivity -->
+        </activity>
+        <activity android:name=".DevolucionVentas">
+
+            <!-- Configuración de la actividad VentasActivity -->
+        </activity>
+        <activity android:name=".Gasolina">
+
+            <!-- Configuración de la actividad VentasActivity -->
+        </activity>
+        <activity android:name=".LiquidacionIT">
+
+            <!-- Configuración de la actividad VentasActivity -->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

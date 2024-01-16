@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAB7B8"
+    tools:context=".NCSeis">
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="8dp"
+                android:text="NORMA N° 6\nTRATAMIENTO CONTABLE DE LAS DIFERENCIAS DE CAMBIO
+DECISIÓN N° 7\n(REEMPLAZA A LA DECISIÓN N° 2)"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="VISTO:
+\nEl trabajo de la Comisión de Principios de Contabilidad de este Consejo, y
+CONSIDERANDO:
+\nQue se han emitido la Decisión N° 6 referente al ajuste por exposición a la inflación de los estados
+financieros correspondientes a gestiones anuales completas que se inicien a partir del 1° de enero de
+1986.
+\nQue teniendo en cuenta los lineamientos de la Decisión N° 6, se hace necesario modificar el tratamiento
+contable de las diferencias de cambio contenido en la Decisión N° 2 de este Consejo Técnico aprobada el
+11 de abril de 1983, para adecuarlo a los lineamientos de la Decisión N° 6.
+\nSE DECIDE:
+\nModificar el contenido de la Decisión N° 2 de este Consejo Técnico, la que a partir de la vigencia de este
+pronunciamiento tendrá la siguiente redacción:
+Las diferencias de cambio emergentes de modificaciones en las paridades cambiarias deben imputarse a
+los resultados del ejercicio en el que se originan, en las cuentas “Resultados por exposición a la inflación”
+o “ Ajuste por inflación y tenencia de bienes” según sea el procedimiento utilizado para la actualización
+de los estados financieros (párrafos 6, 8 ó 9 de la Decisión N° 6)
+\nLas diferencias de cambio se imputarán a los resultados del ejercicio en que se originan,
+independientemente de su cobro o pago, dado que, las operaciones que las originaron quedaron
+perfeccionadas desde el punto de vista de la legislación o prácticas comerciales aplicables, y se
+ponderaron todos los riesgos inherentes a tales operaciones.
+\nEn el caso de que existan dudas sobre recuperabilidad de las cuentas por cobrar actualizadas al nuevo
+tipo de cambio, deberá constituirse la previsión correspondiente.
+Además, deben tenerse en cuenta los aspectos pertinentes tratados en la Decisión N° 5 sobre “
+Tratamiento contable de hechos posteriores al cierre del ejercicio”."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="APROBACIÓN:
+\nEste pronunciamiento fue aprobado por el Consejo Técnico de Auditoría Contabilidad el 13 de enero de
+1987 con el voto de los Consejeros Francisco Muñoz ( Presidente del Consejo), Fabián Rabinovich (
+Presidente de la Comisión de Principios de Contabilidad), Víctor Tellería, Bernando Eisner, Hugo Berthin
+Amengual, Randolfo Pinto, Francisco Meave, Martín Calani, Augusto Ortega, Rubén Cantellas, Guillermo
+\nAlcázar Jiménez y Willi Calle.
+\nLa Dirección fue sancionada por la Comisión Directiva del Colegio de Profesionales de Ciencias
+\nEconómicas de Bolivia el 26 de febrero de 1987
+\nSANCIÓN DEL COMITÉ EJECUTIVO NACIONAL DEL COLEGIO DE AUDITORES DE BOLIVIA.
+\nLa presente norma ha sido sancionada por el CEN del Colegio de Auditores de Bolivia, en su sesión
+ordinaria N° CAUB 30/94 de fecha 16 de junio de 1994, de conformidad a las atribuciones contenidas en
+los Estatutos del Colegio"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text=""
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text=""
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text=""
+                android:textSize="18sp"
+                android:padding="8dp" />
+            <!-- Puedes agregar más TextViews aquí si es necesario -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

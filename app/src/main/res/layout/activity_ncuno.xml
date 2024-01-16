@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE0B2"
+    tools:context="com.datos.contabilidadbasicabolivia.NCUnoActivity">
+
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="8dp"
+                android:text="NORMAS DE CONTABILIDAD Nº 1\n
+(ANTERIOR DECISIÓN No. 1)\n
+PRINCIPIOS DE CONTABILIDAD GENERALMENTE ACEPTADOS
+PRINCIPIOS Y NORMAS TECNICO-CONTABLES GENERALMENTE ACEPTADOS PARA LA PREPARACION DE LOS ESTADOS FINANCIEROS.-"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="1.- La expresión principios y normas posee en contabilidad un significado específico	y convencional cuya extensión conceptual se refiere concretamente a aquel conjunto de conceptos básicos y reglas presupuesto, que condicionan la validez técnica del proceso contable y su expresión final traducida en el estado financiero.\n
+2.- De este conjunto de conceptos básicos y reglas presupuestos, cabe distinguir los siguientes, en orden  a su graduación de lo general a lo particular:\n
+a)	El principio fundamental o postulado básico, que orienta decisivamente toda la acción de los contadores y subordina todo el resto de los principios generales y normas particulares que se enuncien.\n
+b)	Los principios generales, constituidos por conceptos básicos que hacen a la estructura general del estado financiero.\n
+c)	Las normas particulares constituidas por reglas que hacen o se refieren a cada uno de los aspectos particulares que conforman dichos estados.\n
+Es conveniente destacar que estas normas particulares constituyen sólo una guía de acción. En la práctica se presentan casos en que situaciones similares son tratadas contablemente en forma diferente en distintas haciendas, obedeciendo estas diferencias, en muchos casos, a prácticas normales de la actividad.\n
+CAPITULO I PRINCIPIOS CONTABLES
+1.- PRINCIPIO FUNDAMENTAL O POSTULADO BASICO.-
+La equidad es el principio fundamental que debe orientar la acción de los contadores en todo momento y se enuncia así:
+La equidad entre intereses opuestos debe ser una preocupación constante en contabilidad puesto que los que se sirven de o utilizan los datos contables pueden encontrarse ante el hecho de que sus intereses particulares se hallen en conflicto. De esto se desprende que los estados financieros deben prepararse de tal modo que reflejen con equidad, los distintos interese en juego en una hacienda o empresa dada.\n
+2.- PRINCIPIOS GENERALES.-
+
+Se detallan a continuación aquellos principios generales propuestos que hacen a la estructura general de los estados financieros. \n
+a)	Ente.-\n
+Los estados financieros se refieren siempre a un ente donde el elemento subjetivo o propietario es considerado como tercero. El concepto de ente es distinto del de persona ya que una misma persona puede producir estados financieros de varios entes de su propiedad.
+\n
+b)	Bienes Económicos.-\n
+Los estados financieros se refieren siempre a bienes económicos, es decir bienes materiales e inmateriales que poseen valor económico y, por ende, susceptible de ser evaluado en términos monetarios.
+\n
+c)	Moneda de Cuenta.-\n
+Los estados financieros reflejan el patrimonio mediante un recurso que se emplea para reducir todos sus componentes heterogéneos a una expresión que permita agruparlos y compararlos fácilmente. Este recurso consiste en elegir una moneda de cuenta y valorizar los elementos patrimoniales aplicando un precio a cada unidad.
+Generalmente se utiliza como moneda de cuenta el dinero que tiene curso legal en el país dentro del cual funciona el ente y en este caso el precio esta dado en unidades de dinero de curso legal.
+
+En aquellos casos donde la moneda utilizada no constituye un patrón estable de valor, en razón de las fluctuaciones que experimente, no se altera la validez del principio que se sustenta, por cuanto es factible la corrección mediante la aplicación de mecanismos apropiados de ajuste.
+\n
+d)	Empresa en Marcha.-\n
+Salvo indicación en contrario, se entiende que los estados financieros pertenecen a una empresa en marcha considerándose que el concepto que informa la mencionada expresión, se refiere a todo organismo económico cuya existencia temporal tiene plena vigencia y proyección futura.
+\n
+e)	Valuación al Costo.-\n
+El valor del costo - adquisición o producción constituye el criterio principal y básico de valuación que condiciona a la formulación de los estados financieros llamados de situación en correspondencia también con el concepto de empresa en marcha, razón por la cual esta norma adquiere el carácter de principio.
+
+Esta afirmación no significa desconocer la existencia y procedencia de otras reglas y criterios aplicables en determinadas circunstancias, sino que , por el contrario, significa afirmar que en caso de no existir una circunstancia especial que justifique la aplicación de otro criterio, debe prevalecer el de costo como concepto básico de valuación. Por otra parte, las fluctuaciones del valor de la moneda de cuenta, con su secuela de correctivos que inciden o modifican las cifras monetarias de los costos de determinados bienes, no constituyen meros ajustes a la expresión de los respectivos costos.
+\n
+f)	Ejercicio.-\n
+En las empresas en marcha es necesario medir los resultados de la gestión de tiempo en tiempo, ya sea para satisfacer razones de administración, legales, fiscales o para cumplir con compromisos financieros, etc.
+
+Es una condición que los ejercicios sean de igual duración para que los resultados de dos o más ejercicios sean comparables entre si.
+\n
+g)	Devengado.-\n
+Las variaciones patrimoniales que deben considerarse para establecer el resultado económico son las que competen a un ejercicio sin entrar a considerar si se ha cobrado o pagado.
+\n
+h)	Objetividad.-\n
+Los cambios en los activos, pasivos y en la expresión contable del patrimonio neto, deben reconocerse formalmente en los registros contables, tan pronto como sea posible medirlos objetivamente y expresar esa medida en moneda de cuenta.
+\n
+i)	Realización.-\n
+Los resultados económicos sólo deben computarse cuando sean realizados, o sea cuando la operación que los origina queda perfeccionada desde el punto de vista de la legislación o prácticas comerciales aplicables y se hayan ponderado fundamentalmente todos los riesgos inherentes a tal operación.
+Debe establecerse con carácter general que el concepto realizado participa del concepto de devengado.
+\n
+j)	Prudencia.-\n
+Significa que cuando se deba elegir entre dos valores para un elemento del activo, normalmente se debe optar por el más bajo, o bien que una operación se contabilice de tal modo que la alícuota del propietario sea menor. Este principio general se puede expresar también diciendo: contabilizar todas las pérdidas cuando se conocen y las ganancias solamente cuando se hayan realizado.
+
+La exageración en la aplicación de este principio no es conveniente si resulta en detrimento de la presentación razonable de la situación financiera y el resultados de las operaciones.
+\n
+k)	Uniformidad.-\n
+Los principios generales, cuando fueren aplicables, y las normas particulares utilizadas para preparar los estados financieros de un determinado ente deben ser aplicados uniformemente de un ejercicio a otro. Debe señalarse por medio de una nota aclaratoria, el efecto en los estados financieros de cualquier cambio de importancia en la aplicación de los principios generales y de las normas particulares.
+
+Sin embargo el principio de la uniformidad no debe conducir a mantener inalterables aquellos principios generales cuando fueren aplicables, o normas particulares que las circunstancias aconsejan sean modificadas.
+\n
+L) Materialidad.- (significación o importancia relativa)\n
+Al ponderar la correcta aplicación de los principios generales y normas particulares debe necesariamente actuarse consentido práctico.
+
+Frecuentemente se presentan situaciones que no encuadran dentro de aquellos y que, sin embargo, no presentan problemas porque el efecto que producen no distorsiona el cuadro general.
+
+Desde luego, no existe un línea demarcatoria que fije los límites de lo que es y no es significativo y debe aplicarse el mejor criterio para resolver lo que corresponda en cada caso,
+
+de acuerdo con las circunstancias teniendo en cuenta factores tales como el efecto relativo en los activos o pasivos, en el patrimonio o en el resultados de las operaciones.
+\n
+m) Exposición.-\n
+Los estados financieros deben contener toda la información y discriminación básica y adiciona que sea necesaria para una adecuada interpretación de la situación financiera y de los resultados económicos del ente a que se refieren.
+CAPITULO II
+
+PRINCIPIOS Y NORMAS GENERALMENTE ACEPTADOS\n
+
+La acción de los organismos profesionales y oficiales, de la doctrina y en ciertos casos de la jurisprudencia, ha contribuido a la formación de reglas que los contadores aceptan y utilizan en la     contabilización     de     operaciones,     que     afectan     al     patrimonio     de      los entes.
+
+A continuación se enumeran las normas particulares consideradas como generalmente aceptadas, dejándose constancia que ello no impide la incorporación futura de nuevas normas a medida que se aceptación se generalice.
+
+La exposición de las mencionadas normas se realiza sin sujeción a fórmula de balance alguna, atendiendo solamente a un principio básico de clasificación financiera y funcional.
+
+Debe aclararse, además que este conjunto de normas se refiere tanto al aspecto intrínseco como extrínseco del estado financiero, esto es, a criterios de valuación particulares, como a la composición formal del mismo, es decir, a la conformación y discriminación básica que tal estado debe destacar a los fines de posibilitar su interpretación técnica.
+"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I.- ACTIVOS AFECTADOS A OPERACIONES DEL OBJETO ORDINARIO DEL NEGOCIO.-\n
+
+1.- Dinero efectivo y otros bienes asimilables:\n
+Al contabilizar estos bienes, se considerarán solamente aquellos en poder efectivo de la empresa a la fecha del balance no deberán ser excluidos aquellos que aunque a disposición de pago no han salido del poder de la empresa a dicha fecha, Cuando la disponibilidad de estos bienes se hallase restringida deberán figurar bajo rubro aclaratorio.
+
+2.- Derechos crediticios contra terceros.-\n
+Estas cuentas representan importes a cobrar a favor de la empresa como consecuencia de operaciones que hacer a su objetivo ordinario. Salvo situaciones de carácter especial, no deberán compensarse saldos deudores con saldos acreedores.
+
+Cuando la disponibilidad de estos bienes se hallase restringida deberán figurar bajo rubro aclaratorio.
+
+Deberán discriminarse claramente los saldos cuya exigibilidad no exceda de un año de plazo a partir de la fecha del balance general, de aquellos de exigibilidad mayor de un año.
+
+2.a)	previsiones para quebrantos de deudores.-\n
+Los importes a cobrar de deudores que no sean considerados realizables deberán constituir una cifra de previsión para quebrantos.
+
+2.b)	previsiones para descuentos y bonificaciones.-\n
+Cuando es norma de la empresa conceder descuentos y/o bonificaciones corresponde determinar su importe de acuerdo a la experiencia.
+
+3.- Bienes de intercambio ordinario o habitual:\n
+
+Se establece que estos bienes deben valuarse a la fecha del balance a su valor del costo. Si el valor de la plaza es inferior en dicha fecha, deben reducirse a ese valor, salvo las variaciones de precio accidentales y de poco monto.
+
+Determinación del costo.-\n
+El método empleado para determinar el valor de costo debería aplicarse uniformemente del periodo a período, sin referencia a los resultados del ejercicio, y debe conformarse razonablemente con prácticas establecidas dentro del mismo tipo de comercio o industria. Donde en un ejercicio se aparte del método adoptado anteriormente, debe dejarse debidamente aclarado el cambio practicado en el balance general con una indicación del importe por el cual este cambio de método afecta los resultados del ejercicio.
+
+Debe crearse una previsión en épocas de balance general por la pérdida que pudiera ocurrir en la venta de mercaderías cuando se ha comprometido la operación sin tener en existencia la mercadería ni haberse contratado su compra y ha habido alzas en precios de plaza y por analogía si se han comprometido compras de mercaderías sin haberse contratado su venta cuando los precios de plaza están en baja debiendo cargarse estas previsiones a las pérdidas del ejercicio, donde figurarán bajo leyenda específica.
+
+Cuando existan artículos averiados, fuera de moda, o hubiera existencia de mercaderías en exceso de la capacidad de absorción de la plaza a la fecha del balance general deben valuarse a su probable valor neto de realización previniéndose la pérdida por merma, deterioro o difícil venta.
+
+Donde las características del negocio o las condiciones reinantes o previsibles de la plaza lo justifiquen, deben crearse previsiones adecuadas para contrarrestar posibles futuras pérdidas de realización a raíz de bajas de precio en plaza que afectarían tanto la mercadería elaborada como la materia prima.
+
+Por regla general, la registración de las mercaderías en los libro de contabilidad, en lo que se refiere al movimiento durante el ejercicio deber ser al valor del costo establecido de acuerdo con los siguientes principios generales:
+
+a)	En explotaciones comerciales.-\n
+El valor por el que los productos adquiridos ingresan a las existencias es el precio según factura deducidos los descuentos comerciales más los gastos necesarios (incluso seguros y derechos aduaneros) hasta poner la mercadería en los depósitos del comprador. Se recomienda no deducir del costo de los descuentos de caja que se considerarán como beneficios financieros.
+
+Las salidas de productos de los distintos rubros de existencias podrán computarse por cualquier método aceptable tal como primero entrado, primero salido, un último entrado primero salido identificación específica, costo promedio ponderado, costo de existencia base , etc.
+
+        b)	En explotaciones Industriales.-\n
+        Comprende la materia prima, mano de obra y gastos indirectos de fábrica, reunidos según las características de la industria y modalidades de trabajo, por órdenes de producción, procesos productivos o algunas de sus variantes, con el fin de obtener el costo unitario del producto elaborado.
+
+        En el costo de la materia prima debe computarse el valor de factura neta de descuentos comerciales, más los gastos necesarios (incluso seguros y derechos aduaneros) hasta poner la mercadería en los depósitos del comprador, Se recomienda no deducir del costo los descuentos de caja, que e considerarán como beneficios financieros.
+
+        Las amortizaciones del activo fijo utilizado en la producción, se incluirán entre los gastos indirectos de fábrica.
+
+        Debe tenerse en cuenta que los gastos anormales provocados por causas extraordinarias, en desperdicios anormales de materias primas, no-utilización casual de la mano de obra, reparaciones extraordinarias, no-utilización de la fábrica a la capacidad prevista, etc. no deben computarse en el costo de los productos en elaboración sino que deben incluirse directamente entre las pérdidas del ejercicio.
+
+        No deberán incluirse en gastos indirectos de fábrica los gastos administrativos o generales que no estén relacionados directamente con el proceso productivo no los gastos de almacenamiento de los productos terminados.
+
+        Se recomienda no computar en los costos el interés del capital propio o ajeno, e incluir este ultimo en los gastos  financieros.
+
+        En el caso de gastos indirectos de fábrica que se relacionen con futuras producciones es aconsejable diferir su absorción.
+
+        Los costos de producción pueden establecerse ya sea basados en cifras reales o predeterminadas.
+
+        Los ingresos de los productos a los distintos rubros de existencia se realizan al costo. Las salidas de productos de los distintos rubros de existencia ya sean para ser ingresados al siguiente proceso en el orden de producción o para ser eliminados de las existencias como costo de las ventas podrá ser computadas por cualquier método aceptable tal como primero en entrado primero salido ultimo entrado primero salido  identificación específica costo promedio ponderado  costo de existencias base, etc.
+4.- Bienes para uso de la explotación o ente.-\n
+
+        Este rubro incluye el conjunto de bines tangibles aplicados exclusivamente a la explotación de la empresa, de permanencia relativamente constante o inmovilizada. Integran tal rubro bienes como los siguientes:\n
+
+        a)	Bienes no sujetos a depreciación ni agotamiento, como ser terrenos para la explotación industrial o comercial.\n
+
+        b)	Bienes sujetos a depreciación como ser edificios, maquinarias, equipos herramientas y muebles, etc.\n
+
+        c)	Bienes sujetos a agotamiento, como ser minas, yacimientos petrolíferos, Canteras y bosques.\n
+
+        Los elementos indicados en los incisos b) y c) están expuestos, por su naturaleza, a la pérdida de su valor por las causas mencionadas.
+
+        Los bienes indicados en el inciso b) no se consumen ni se transforman, se usan y su incidencia en el resultado de la empresa e produce a través de la depreciación quebranto que está relacionado con el desgaste o desuso.
+
+        Dichas pérdidas de valor deberán reflejarse siempre en la contabilidad de las empresas en formas de depreciaciones acumuladas para que puedan revelarse los valores de origen y las disminuciones que las afectan.
+
+        Las pérdidas de valor en los bienes sujetos a agotamiento deben reflejarse, igualmente, en la contabilidad de las empresas, en forma de amortizaciones acumuladas.
+
+        La contabilización de los inmuebles, plantel y equipo (activo fijo) deberá efectuarse sobre la base de costo. En el caso de que no se hallare contabilizado a su costo, sino de acuerdo con una tasación de reevaluación, deberá indicarse   esta circunstancia en el balance en forma clara y precisa con mención de la fecha y base de la tasación o reevaluación.
+
+        Todos los repuestos para los bienes de uso de la explotación o ente se clasificarán en este rubro.
+
+        No es recomendable activar intereses sobre capital propio invertido en obras durante los periodos de construcción.
+
+        En cuanto a la capitalización de intereses abonados a terceros, se permitirá con estas condiciones:\n
+
+        a)	Afectación comprobada del dinero proveniente del préstamo a la adquisición de un bien.\n
+
+        b)	Limitación de los intereses capitalizables a aquellos que corresponden al período entre el día de la obtención del préstamo y aquel en que el bien adquirido empieza a ser utilizado económicamente por el propietario.\n
+
+        c)	Cuando a la fecha del balance aún no se haya elevado a escritura pública la transferencia del dominio de algún inmueble, el mismo será objeto de una nota aclaratoria o figurará en una cuenta específica.\n
+"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Terrenos.-\n
+        Deberá distinguirse contablemente la existencia de los terrenos ocupados por la empresa para su negocio, de los terrenos que se poseen con el propósito de venta.
+        Estos deberán incluirse como inversiones.
+
+        Además del precio de compra en el costo de los terrenos es admisible la inclusión de los desembolsos que se refieren a rellenamiento y desagüe de los terrenos, comisiones a intermediarios, gastos de escrituración, honorarios, y cualquier otro desembolso relacionado con la adquisición de los terrenos y sus mejoras.
+
+        Edificio.-\n
+        Los edificios que se adquieran terminados figurarán por su precio de costo más los gastos inherentes a la compra. Comisiones, escrituración, honorarios, etc.
+
+        En el caso de construcciones de edificios deberán tenerse presente situaciones como las siguientes:\n
+
+        a)	En caso de demoliciones previas se cargará al terreno el importe total de compra, incrementado por el costo de la demolición, previa deducción de los materiales recuperados.\n
+        b)	Deberán capitalizarse, durante la construcción todos los gastos inherentes a la obra incluso seguros, impuestos, indemnizaciones por accidentes, primas pagadas a inquilinos legales por desalojos.\n
+
+        Maquinaria, equipos e instalaciones.-\n
+        El costo de maquinarias y equipos que se imputa al activo, debe incluir, además del costo de adquisición, el costo de instalación, es decir, mana de obra, etc. Cuando interviniere en tales trabajos personales de la empresa deberán capitalizarse todos los gastos inherentes a la obra, incluso seguros, impuestos, indemnizaciones por accidentes, etc.
+
+        Camiones, vehículos, etc.-\n
+        El costo de camiones y vehículos deberá incluir el costo inicial de todos los accesorios y las mejoras posteriores.
+
+        La depreciación o amortización de estos bienes, según sea el método que se adopte, deberá efectuarse de acuerdo con criterios mantenidos uniformemente de un ejercicio a otro.
+
+        Las alícuotas de depreciación se aplicarán sobre el costo de origen y se entiende que se emplean para el supuesto de que haya hecho uso normal del equipo, maquinaria, vehículos, etc. Si el uso hubiera siso variado sensiblemente, deberá tenerse en cuenta dicha circunstancia para modificar como corresponda la respectiva alícuota.
+
+        5.- Activos Intangibles.-\n
+
+        Los activos intangibles comprenden derechos y otros bienes inmateriales tales como los que tienen un plazo de existencia limitada por ley o por contrato y aquellos que no tienen una duración de existencia conocida al momento de su adquisición. Deben figurar por su precio de costo.
+
+        La valuación de los distintos activos que integran el rubro intangible se realizará de la siguiente manera:
+
+        Marcas.-\n
+        Integran su costo: gastos legales y de inscripción, dibujos, diseños a su precio de adquisición.
+        No se debe integrar el costo con partidas provenientes de gastos de propaganda o promoción. Las marcas no deben ser aumentadas en su valor por encima del costo aún cuando constituyan la creación de un valor de llave o plusvalía. Se asimila a la marca la enseña, emblema o nombre comercial, cuando reviste las mismas características de aquella. Se la consideran un intangible sujeto a amortizaciones.
+
+        Fórmulas.-\n
+        Su costo lo forma: gastos de desarrollo, investigación o valor de adquisición. Se la considera un intangible sujeto a amortizaciones.
+
+        Llave.-\n
+        Deberá figurar en el balance a su costo en el caso de haber sido abonada en el momento de compras de la empresa o en el  uso de transformaciones, fusiones o reorganizaciones.
+
+        Patentes.-\n
+        Se registrarán a su costo, cuando ha sido obtenida por la empresa y se capitalizan los gastos de experimentación, investigación y desarrollo hasta su posesión definitiva, deberá amortizarse el costo en ejercicios futuros y si la patente no se logra o resulta carente del valor industrial o comercial deberá amortizarse totalmente el costo en el ejercicio en que pierda su valor o se conozca el hecho.
+
+        Cuando se adquiere una patente de vida limitada, la amortización deberá cubrir los años que corran desde   la fecha de su adquisición hasta su total extinción. Si el artículo patentado puede ser reemplazado por alguna otra invención, debe tenerse en cuenta como un factor probable para hacer que la vida de la patente sea más corta que su vida legal.
+
+        La amortización de las patentes deberá contemplarse considerando los siguientes factores. Transcurso del tiempo, reemplazo y obsolescencia.
+
+        Transcurrido el plazo legal sin explotación alguna, o en los casos que existe por imperio una causa de caducidad o nulidad, deberá amortizarse la suma capitalizada por desaparecer toda posibilidad de uso o aprovechamiento del privilegio anteriormente obtenido.
+
+        Propiedad literaria y reproducción.- (Derechos de Autor)\n
+        El costo está formado por el valor de adquisición, gastos legales y de inscripción. La adquisición de derechos deberá registrarse como un intangible hasta su aplicación definitiva al costo de la obra. Si se trata de una sola edición y los derechos se han adquirido específicamente para ella quedará absorbido el importe del intangible con el costo de dicha edición. Si se han adquirido los derechos para varias ediciones, podrá absorberse el gasto entre las ediciones proyectadas.
+
+        Concesiones y Franquicias.-\n
+        Integran su costo los gastos legales y otros que hubiera en la obtención de las mismas. La amortización debe operarse dentro de su vida legal.
+
+        Las otorgadas a perpetuidad no necesitan ser amortizadas, las revocables en cualquier momento por simple disposición de la autoridad que las confirió, conviene amortizarlas rápidamente.
+
+        En lo que a costo respecta se observa:\n
+
+        La suma que se paga como contribución única a la institución, entidad o autoridad pública que otorga el privilegio, constituye un desembolso capitalizable, el que deberá ser amortizado durante la vida legal o contractual del mismo. Si la condición del otorgamiento del permiso consiste en contribuciones parciales sobre la base del producto de la explotación a intervalos periódicos, tales pagos deberán absorberse de inmediato.
+
+        Son un gasto de explotación.\n
+
+        Cuando la obligación del concesionario consiste en construir pavimentos, edificios, puentes, obras públicas, etc., se capitalizan estos gastos y se amortizan durante el término legal.
+
+        En el caso de que correspondan amortizaciones, estás deberán figurar por separado.
+
+        Cuando se encuentren afectados a un régimen establecido por ley o por contrato que impone una duración definida, deberán amortizarse en un plazo que no exceda a su vida legal.
+
+        6. - Gastos adelantados y cargos diferidos.-\n
+
+        Los gastos adelantados y cargos diferidos representan costos que han de incidir en ejercicios futuros. La distribución de estos costos a ejercicios futuros en sumas iguales es, quizás, en la práctica, el método más común, aunque también suelen utilizarse procedimientos basados, por ejemplo en la cantidad de unidades producidas o vendidas en un tiempo dado.
+
+        Cuando no pueden ser relacionados con períodos de tiempo determinado o con unidades producidas o vendidas, es común no diferirlos o sea, tomarlos como un cargo en el ejercicio en que ocurran, aunque la práctica contable admite, también su diferimiento en cuotas de igual monto siempre que se efectúe en el menor tiempo que razonablemente sea posible dadas las circunstancias.
+
+        La incidencia de los gastos adelantados y cargos diferidos en el siguiente o futuros ejercicios deberá ser discriminada claramente indicándose si han de vencer dentro de un año o a más de un año de plazo de la fecha del balance general.
+
+        II.- ACTIVOS AFECTADOS A OPERACIONES AL MARGEN DEL OBJETO ORDINARIO DEL NEGOCIO\n
+
+        Este rubro comprende la colocación del capital en todo tipo de bien, al margen del negocio habitual de la empresa, ya sea con carácter estable o transitorio.
+        Enunciativamente, puede destacarse que incluye valores mobiliarios públicos y privados, créditos contra terceros, inmuebles, otras inmovilizaciones, etc.
+
+        Específicamente, la valuación de algunos de los principales activos incluidos bajo este rubro se realizará de la siguiente manera:"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a)	Valores mobiliarios con cotización.-\n
+        En general y salvo situaciones específicas de notorio conocimiento se establece que estos valores deben valuarse a la fecha del balance al valor que resulte más bajo entre precio de costo o valor de plaza.
+
+        b)	Valores mobiliarios sin cotización.-\n
+        Estos valores figurarán por su costo, el que deberá ser disminuido cuando la baja producida sea de importancia, tenga carácter establece y haya sido fehacientemente determinada, si no fuera posible utilizar el costo como fuente de valuación, éste se determinará sobre la base de un estudio de los balances de las sociedades a que correspondan esos valores. En este sentido se tendrá presente lo que realmente representan esos valores desde el punto de vista económico.
+
+        c)	Cuotas de Capital.-\n
+        El valor de estas participaciones será el correspondiente al aporte realmente entregado y no sufrirá otras variaciones que las que resulten de movimientos de capital realizados por la otra entidad.
+        En el caso de existir pérdidas definitivas deberá efectuarse la previsión correspondiente con cargo a los resultados del ejercicio donde figurará bajo leyenda específica.
+
+        d)	Seguros de Vida.-\n
+
+        Se considera una inversión fija el valor de rescate de los seguros de vida de los dueños, gerentes, técnicos especializados, socios u otras personas, constituidos a favor de la empresa.
+        En cuanto a la valuación de los restantes bienes que deben agruparse bajo este rubro, corresponde remitirse a los capítulos que incluyan bienes de naturaleza análoga.
+        En general, los bienes comprendidos en este rubro, deberán computarse a su costo.
+
+        Deberán discriminarse claramente las inversiones de carácter corriente y/ o transitorio, de aquellas que han sido efectuadas con carácter estable, clasificándolas en realizables a menos o a más de un año de plazo a partir de la fecha del balance general, respectivamente.3
+
+        III.- DERECHOS DE TERCEROS Y PROPIOS SOBRE EL ACTIVO.-\n
+
+        1.	- Derechos crediticios de terceros.-\n
+        Este rubro incluye todas aquellas cuentas que representan obligaciones ciertas de la empresa hacia terceros. Salvo situaciones de carácter especial no deberán compensarse saldos deudores con saldos acreedores. Deberán compensarse saldos deudores con saldos acreedores. Deberán discriminarse claramente los saldos cuya exigibilidad no exceda de un año de plazo a partir de la fecha del balance general, de aquellos de exigibilidad mayor a un año.
+
+        2.	- Derechos de terceros en expectativa o indeterminados\n
+        Este rubro incluye las estimaciones que se efectúen a la fecha del balance general, con cargo a la cuenta de resultados, por pasivos cuyo monto es incierto. Así por ejemplo incluirá las previsiones por juicios pendientes, para indemnizaciones pagaderas al personal o a sus familiares en caso de despido o muerte, por accidente del trabajo, etc.
+
+        3.	- Ingresos o utilidades diferidos.-\n
+        Este rubro incluye aquellas cuentas que representan beneficios que serán liquidados en ejercicios siguientes a la fecha del balance general.
+
+        4.	- Capital, Reservas y Resultados.-\n
+
+        4.a)	Capital y Reservas.-\n
+        El rubro capital sumados al de reservas y resultados y disminuido por los Importes pendientes de integración, expresan la participación de los dueños en la Empresa, representada por el exceso de su activo sobre su pasivo, proveniente De los bienes aportados por los propietarios más las ganancias no distribuidas y Menos las pérdidas acumuladas en la explotación.
+        El capítulo de reservas incluye las cuentas que representan una extensión cierta del capital, es decir Reservas de Capital y Reservas de utilidades.
+        Las reservas de Capital comprenden aquellas partidas que corresponden a incrementos del activo, resultantes de la aplicación a éste de mayores valores (por ejemplo a causa de reevaluaciones), o a la provisión de fondos que impliquen un aumento efectivo del patrimonio (por ejemplo, las primas de emisión de acciones) sin que necesariamente afecten al capital nominal.
+        Las reservas de utilidades representan una parte de las utilidades destinadas a: 1) dar cumplimiento a una obligación legal; 2) reforzar el capital de la empresa, sin modificar el monto legal del mismo.
+        Cuando una reserva estuviera afectada a un fin específico, ella deberá figurar bajo un rubro aclaratorio.
+
+        4.b)	Resultados.-\n
+
+        Las cuentas deberán estar dispuestas de tal forma que permitan determinar los resultados brutos de la explotación, los resultados netos de sus negocios habituales y las partidas de naturaleza extraordinaria.
+        Todos los ingresos y todas las erogaciones deben reflejarse en cuenta de resultados del ejercicio a que correspondan o en el primer ejercicio en que se tomó conocimiento de ellos; en este último caso, y cuando se trate de partidas que alteren sensiblemente el resultado de operaciones del ejercicio en curso, deben indicarse por separado, con la aclaración que corresponde a ejercicios anteriores.
+
+        Los resultados brutos de explotación resultan de mostrar:\n
+
+        1.- Los ingreso provenientes de operaciones normales de la venta de mercaderías y/ o de la prestación de servicios; que correspondan al giro habitual de la empresa y\n
+
+        2. - El costo de las mercaderías vendidas y/o de los servicios prestados.\n
+
+        Sólo pueden computarse, como ventas netas o servicios prestados los realizados en firme, deducidos, devoluciones, descuentos y bonificaciones.
+
+        El costo de las mercaderías o servicios prestados corresponden al de las unidades vendidas o de los servicios prestados en el período determinado en alguna de las formas que se detallan bajo el capítulo “ Bienes de intercambio ordinario o habitual”.
+
+        Para establecer los resultados del negocio habitual del resultado bruto se deducen los gastos de venta o comercialización, gastos financieros, gastos de administración e impuesto a las utilidades. La actividad propia de la empresa determinará, en cada caso la clasificación adecuada de sus gastos entre estos tres conceptos:
+
+        Gasto de Ventas.-\n
+        Incluye los gastos directamente vinculados con la gestión de la venta: promoción, distribución, gravámenes, etc.
+
+        Gastos Financieros.-\n
+        Comprende los gastos vinculados con la obtención de capitales complementarios para la gestión de la empresa.
+
+        Gastos de administración.-\n
+        Incluye todos los gastos que no corresponden directamente a la financiación, o a la gestión de ventas.
+        Las partidas de naturaleza extraordinaria comprenden las operaciones realizadas durante el ejercicio sin responder al giro habitual.
+        Entre los ingresos pueden mencionarse a título de ejemplo los siguientes: Intereses, dividendos y otras rentas, utilidades por venta de inmuebles, plantel y equipos, ganancias de cambio, cancelación de previsiones constituidas en ejercicios anteriores, deudores incobrables recuperados, etc.
+        Entre los egresos pueden mencionarse a título de ejemplo, los siguientes: intereses, pérdidas por ventas de inmueble, plantel y equipo, pérdidas de cambio, constitución de previsiones extraordinarias, amortizaciones y quebrantos extraordinarios.
+
+        IV.- EVENTUALIDADES O CONTINGENCIAS.-\n
+
+        Las eventualidades o contingencias que pueden afectar el patrimonio de la empresa o sea aquellas cuyo valor sujeto al cumplimiento de una condición o eventualidad, pueden expresarse en cuentas de orden o mediante notas, ya sea al pie de los estados contables o en planilla aparte.
+
+        DECISION N º 1\n
+        El consejo Técnico de Auditoria y Contabilidad del colegio de Economistas de Bolivia.
+
+        Considerando:\n
+        Que por disposición del artículo 3º de la resolución N º 3 del 4 de Octubre de 1978, el Consejo Nacional del Colegio de Economistas de Bolivia le ha encomendado el estudio y pronunciamiento respecto de la adopción de los Principios de Contabilidad Generalmente Aceptados:
+        Que esta facultad privativa del Consejo Técnico de Auditoria y Contabilidad se adopta siguiendo las normas de aprobación prescritas en los artículos 4 º y transitorios 2 º de la resolución antes citada.
+        Que el Consejo técnico de Auditoria y Contabilidad ha estudiado la recomendación de la VII Conferencia Interamericana de Contabilidad celebrada en Mar del Plata (Argentina) en noviembre de 1965 y la otras resoluciones que le son relativas, encontrando que se adecuan a las condiciones económicas y a la técnica contable prevaleciente en el país.
+
+        RESUELVE:\n
+
+        Aprobar como Decisión N º 1 los “ Principios de Contabilidad Generalmente Aceptados” recomendados por la VII Conferencia Interamericana de Contabilidad celebrada en la ciudad del Mar del Plata, República Argentina del 14 al 20 de Noviembre de 1965 para su vigencia entre todos los profesionales dedicados a actividades contables en Bolivia.
+
+        Es dada en Sala de deliberaciones del Consejo Técnico de Auditoria y Contabilidad del Colegio de Auditoria y Contabilidad, del Colegio de Economistas de Bolivia, en la ciudad de La Paz, a los veinticuatro días del mes de Septiembre de mil novecientos setenta y nueve años.
+
+        La presente decisión fue aprobada unánimemente por los doce miembros del Consejo Técnico de Auditoria y Contabilidad, Licenciados Guillermo Alcázar, Hugo Berthin, Willy Calle, Bernardo Elsner, Luis Franck, Carlos Melgar, Federico Mercado, Francisco Muñoz, Augusto Ortega, Gonzalo Ruiz, Federico Salces y Víctor Tellería.
+
+        Sanción del Comité Ejecutivo Nacional del Colegio de Auditores de Bolivia.-\n
+
+        La presente norma ha sido sancionada por el CEN del colegio de Auditores de Bolivia, en su sesión ordinaria N º CAUB 30/94 de fecha 16 de Junio de 1994, de conformidad a las atribuciones contenidas en los estatutos del colegio.
+"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:padding="8dp" />
+            <!-- Puedes agregar más TextViews aquí si es necesario -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAB7B8"
+    tools:context=".NCCuatro">
+
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="8dp"
+                android:text="NORMA DE CONTABILIDAD No 4
+REVALORIZACION TECNICA DE ACTIVOS FIJOS
+DECISION No 8
+(Reemplaza a la decisión No 3)"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="VISTO:
+El trabajo de la Comisión de Principios de Contabilidad de este Consejo, y\nCONSIDERANDO:\nQue se ha emitido la decisión No 6 referente al ajuste por inflación de los estados financieros
+correspondientes a gestiones anuales completas que se inicien a partir del 1ro de enero de 1986.\nQue teniendo en cuenta los lineamientos de la Decisión No 6, se hace necesario modificar el tratamiento
+contable de las revalorizaciones técnicas de activos fijos contenido en la decisión No 3 de este Consejo
+Técnico aprobado el 11 de abril de 1983, para adecuarlo a los lineamientos de la decisión No 6.\nSE DECIDE:\nModificar el contenido de la decisión No 3 de este consejo Técnico, la que a partir de la vigencia de este
+pronunciamiento tendrá la siguiente redacción:\nA fin de establecer condiciones de aceptabilidad a las revalorizaciones técnicas de activos fijos señalan
+las distintas formalidades que debiera cumplir un proceso de corrección como el señalado, y que son:\n1) La revalorización técnica debe ser realizada por un profesional experto en la materia, de acuerdo a
+la naturaleza de los bienes revalorizables, debidamente matriculado en el organismo profesional
+correspondiente;\n2) Debe ser aprobada por el directorio u órgano ejecutivo responsable del ente;\n3) Debe ser aprobada por una Junta de Accionistas o Asamblea de Socios del Ente, habiendo sido
+incluida como punto específico del orden del día;\n4) La contabilización de la revalorización técnica puede efectuarse una vez que sea aprobada por el
+Directorio. La Junta de Accionistas o Asamblea de Socios deberá aprobar la revalorización técnica
+al tratar los estados financieros anuales que la contengan. Deberá dejar expresa constancia, en
+nota a los estados financieros, que la capitalización de la revalorización técnica resultante se halla
+sujeta a la aprobación del organismo oficial competente cuando corresponda.\n5) El incremento de valor recibirá el siguiente tratamiento contable:\na. El mayor valor resultante, hasta el monto de la actualización efectuada según los
+procedimientos descritos en los párrafos 6 y 9 de la Decisión No 6, será abonada a la
+cuenta “Resultados por exposición a la Inflación” (párrafo 6) o “ Ajuste por Inflación y
+Tenencia de Bienes” (párrafo 9), según sea el procedimiento utilizado para la actualización
+de los estados financieros.\nb. El exceso del monto del revalúo técnico sobre el valor actualizado según el procedimiento
+descrito en los párrafos 6 y 9 de la Decisión 6, deberá acreditarse a cuenta patrimonial
+denominada “Reserva por Revalúos Técnicos”.\nc. En el caso que el monto del revalúo técnico sea inferior al valor actualizado según el
+procedimiento descrito en los párrafos 6 y 9 de la Decisión No 6, la diferencia será
+debitada en las cuenta"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="6) El monto de la cuenta “Reserva por revalúos Técnicos” , después de haberse obtenido las
+aprobaciones señaladas en los párrafos 2 y 3 anteriores, podrá ser capitalizada o utilizada para
+absorber pérdidas acumuladas. Hasta que eso ocurra se la debe computar a efectos de
+determinar la situación del Ente, en cuanto a la proporción de pérdidas respecto del capital que
+señala el artículo No 354 del Código de Comercio."
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="7) La responsabilidad por los valores resultantes del avalúo técnico, recae en el profesional
+especializado y habilitado a tal efecto que hubiera emitido su informe pertinente. dicho informe
+técnico debe contener como mínimo, los siguientes aspectos del trabajo realizado:\na) Bases técnicas utilizadas.\nb) Documentación examinada.\nc) Cuadro mostrando los valores anteriores a la revalorización (tanto de activo como de
+depreciación acumulada), los nuevos valores resultantes y los años de vida útil restante.\n8) En el periodo de vida útil restante deberá depreciarse el nuevo valor residual revalorizado de los
+bienes. La depreciación futura deberá cargarse a los resultados de cada gestión siguiendo las
+prácticas habituales del Ente. Asimismo, los nuevos valores de los bienes revalorizados deberán
+tenerse en cuenta para los casos de baja por venta o retiros.
+"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="APROBACION:\nEste pronunciamiento fue aprobado por el Consejo Técnico de Auditoría y Contabilidad el 13 de enero de
+1987, con el voto de los Consejeros Francisco Muñoz (Presidente del Consejo), Fabián Rabinovich
+(Presidente de la Comisión de Principios de Contabilidad), Víctor Tellería, Bernardo Eisner, Hugo Berthin,
+Randolfo Pinto, Francisco Meave, Martín Calani, Augusto Ortega, Rubén Centellas, Guillermo Alcázar y
+Willy Calle.\n
+La decisión fue sancionada por la Comisión Directiva del Consejo de profesionales en Ciencias
+Económicas de Bolivia el 26 de febrero de 1987.\nSANCION DEL COMITE EJECUTIVO NACIONAL DEL COLEGIO DE AUDITORES DE BOLIVIA\nLa presente norma ha sido sancionada por el CEN del Colegio de Auditores de Bolivia, en su sesión
+ordinaria No CAUB 30/94 de 16 de junio de 1994, de conformidad a las atribuciones contenidas en los
+Estatutos del Colegio"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:padding="8dp" />
+            <!-- Puedes agregar más TextViews aquí si es necesario -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,1392 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#85C1E9">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="PLAN DE CUENTAS\n(Para empresas comerciales)"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <!-- ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Contenido de la ScrollView -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Encabezados de la tabla -->
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="10dp"
+                        android:text="CÓDIGO Nº"
+                        android:textColor="#FFFFFF"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="10dp"
+                        android:textColor="#FFFFFF"
+                        android:text="DESCRIPCIÓN"
+                        android:typeface="monospace" />
+                </TableRow>
+
+                <!-- Datos de la tabla (filas adicionales) -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000" />
+
+
+                <!-- Cuentas de Egresos por Gastos de Administración y Operativos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="511"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="GASTOS DE ADMINIT. Y OPERATIVO"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Costo de Venta -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Costo de Ventas"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Descuentos en Ventas -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51102"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Descuentos en Ventas"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Remuneración al Factor del Trabajo -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="512"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="REMUNERACION AL FACTOR DEL TRABAJO"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51201"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Sueldos y Salarios Pagados"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Aguinaldos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51202"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Aguinaldos"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51203"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Vacaciones Pagadas"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos de Capacitación -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51204"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Por Capacitación"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos de Movilidad -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51205"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos de Movilidad"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51206"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Por Indemnización"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos Por Desahucios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51207"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Por Desahucios"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos Por Bonificaciones -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51208"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Por Bonificaciones"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51209"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Servicios Profesionales"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Sueldos Eventuales -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51210"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Sueldos Eventuales"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Sueldos y Honorarios Profesionales -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51211"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Sueldos y Honorarios Profesionales"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Pasajes y Viáticos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51212"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Pasajes y Viáticos"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Servicio de Auditoría Externa -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51213"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Servicio de Auditoría Externa"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51301"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Aportes a la Caja Nacional de Salud"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Aportes a las A.F.P. Sobre Riesgos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51302"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Aportes a las A.F.P. Sobre Riesgos"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Aportes a FONVIS -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51303"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Aportes a de Ley"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Aportes a INFOCAL -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51304"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Otros Aportes"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Retenciones Aportes RC-IVA -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51305"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Retenciones Aportes RC-IVA"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51401"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Subsidio Pre-Natal"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Subsidio de Natalidad -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51402"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Subsidio de Natalidad"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="515"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="GASTOS SERVICIOS FINANCIEROS:"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos Por Chequera y Visacion -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51501"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Por Chequera y Visacion"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Intereses Bancarios y Otro -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51502"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Intereses Bancarios y Otro"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos Por Seguros -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51503"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Por Seguros"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Otros Seguros -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51504"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Otros Seguros"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Ajuste Por Inflacion y Ten.de Biene S -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51505"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ajuste Por Inflacion y Ten.de Biene S"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="516"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="PAGOS DE TRIBUTOS:"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Impuesto Propiedad de Biens Inmuble -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51601"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Impuesto Propiedad de Biens Inmuble"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Impuestos Municipales -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51602"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Impuestos Municipales"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Impuesto Sucecion y Transac.Gratuit -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51603"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Impuesto Sucecion y Transac.Gratuit"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Impuesto a las Transacciones -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51604"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Impuesto a las Transacciones"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Otros Impuestos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51605"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Otros Impuestos"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Impuesto a las Util.de las Empresas -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51606"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Impuesto a las Util.de las Empresas"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Impuesto al Valor Agregado -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51607"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Impuesto al Valor Agregado"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos, Multas y Recargos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="51608"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos, Multas y Recargos"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="GASTOS DE ADMINISTRACIÓN:"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por GASTOS OPERATIVOS: -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="521"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="GASTOS OPERATIVOS:"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Servicio Telefonico -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Servicio Telefonico"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Servicio de Luz Electrica -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52102"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Servicio de Luz Electrica"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Servicio de ENTEL-TELECEL -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52103"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Servicio de ENTEL"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52112"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Servicio de Fotocopias"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos Por Formularios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52113"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Por Formularios"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos de Representacion -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52114"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos de Representacion"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos Notariales y Judiciales -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52115"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Notariales y Judiciales"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52116"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Suscripciones y Afiliaciones"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Material de Escritorio -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52117"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Material de Escritorio"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Donaciones y Obsequios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52118"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Donaciones y Obsequios"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Diversos Gastos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52119"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Diversos Gastos"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52201"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Material de Oficina"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Material y Mantenimiento de Limpieza -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52202"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Material y Mantenimiento de Limpieza"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Botiquín de Medicinas -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52203"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Botiquín de Medicinas"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Ajuste Gastos Gestiones Anteriores -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52204"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ajuste Gastos Gestiones Anteriores"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Faltantes en Caja -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52205"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Faltantes en Caja"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos Varios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52206"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Varios"
+                        android:padding="10dp" />
+                </TableRow>
+                <!-- Cuentas de Egresos por Diferencia de Cambio -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52301"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ajuste Por Inf. Y Tenencia de Bienes"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Beneficios Sociales -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52401"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Beneficios Sociales"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Desahucio -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52402"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Desahucio"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos Reservas y Seguros -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52403"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Reservas y Seguros"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Pérdida Por Cuentas Incobrables -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52404"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Pérdida Por Cuentas Incobrables"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Gastos Vacaciones Devengadas -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52405"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Gastos Vacaciones Devengadas"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- ... (continúa con el resto de las cuentas) ... -->
+                <!-- Cuentas de Egresos por Pérdidas de Cambio -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52501"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Diferencia de Cambio"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Ajuste Correcciones Valores Monetarios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52502"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ajuste Correcciones Valores Monetarios"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Ajuste Por Inf. Y Tenencia de Bienes -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52503"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ajuste Por Inf. Y Tenencia de Bienes"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Depreciación de Edificio e Instalación -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52602"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Depreciación de Edificio e Instalación"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Depreciación de Muebles y Enseres -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52603"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Depreciación de Muebles y Enseres"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Depreciación de Equipo de Oficina -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52604"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Depreciación de Equipo de Oficina"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Depreciación de Equipo de Computación -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52605"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Depreciación de Equipo de Computación"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- ... (continúa con el resto de las cuentas) ... -->
+                <!-- Cuentas de Egresos por Mantenimiento y Reparación de Inmueble -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52702"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Mantenimiento y Reparación de Inmueble"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Mantenimiento y Reparación de Muebles y Enseres -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52703"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Mantenimiento y Reparación de Muebles y Enseres"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Mantenimiento y Reparación de Equipos de Oficina -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52704"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Mantenimiento y Reparación de Equipos de Oficina"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Mantenimiento y Reparación de Equipos de Computación -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52705"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Mantenimiento y Reparación de Equipos de Computación"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Mantenimiento y Reparación de Vehículo -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52706"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Mantenimiento y Reparación de Vehículo"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Egresos por Mantenimiento y Reparación Eléctrica -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52707"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Mantenimiento y Reparación Eléctrica"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- ... (continúa con el resto de las cuentas) ... -->
+                <!-- Cuentas de Egresos por Baja de Activos Fijos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52801"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Baja de Activos Fijos"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Gastos No Deducibles por Multas y Accesorios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52901"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Multas y Accesorios"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Gastos No Deducibles por Donaciones y Obsequios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52902"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Donaciones y Obsequios"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Gastos No Deducibles por Sueldos Eventuales -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52903"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Sueldos Eventuales"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Gastos No Deducibles por Depreciación de Activos Fijos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52904"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Depreciación de Activos Fijos"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Gastos No Deducibles por Pérdidas y Ganancias -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52905"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Pérdidas y Ganancias"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Gastos No Deducibles por Sueldos Profesionales -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="52906"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Sueldos Profesionales"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- ... (continúa con el resto de las cuentas) ... -->
+
+            </TableLayout>
+        </ScrollView>
+    </ScrollView>
+</LinearLayout>

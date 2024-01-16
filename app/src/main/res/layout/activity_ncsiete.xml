@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAB7B8"
+    tools:context=".NCSiete">
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="8dp"
+                android:text="NORMA DE CONTABILIDAD Nº 7
+\nVALUACION DE INVERSIONES PERMANENTES
+\n(DECISION Nº 10)
+\n(Originada en la Recomendación Nº 9)"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="VISTO:
+\nEl trabajo de la comisión de Principios de Contabilidad de este consejo, y
+\nCONSIDERANDO:
+\nQue es necesario establecer normas para la valuación de las inversiones permanentes
+\nSE DECIDE:
+\n1.- GENERAL
+\n1.1. La valuación por parte de las empresas tenedoras de las inversiones permanentes en sociedades
+sobre las que se ejerza el control total (sociedades controladas o subsidiarias) o una influencia
+significativa en sus decisiones (sociedades vinculadas), así como el reconocimiento de los resultados
+producidos por tales inversiones, deben practicarse siguiendo el método del valor patrimonial
+proporcional que se describe en los párrafos 2 a 6 de este pronunciamiento.
+\n1.2 .El control o influencia a que se refiere el párrafo 1.1 puede presentarse de manera directa o a través
+de otras sociedades.
+\nLa participación puede encontrarse representado por acciones ordinarias (u otras que tengan
+características similares y no representen simples pasivos de la sociedad emisora) de sociedades
+anónimas o en comandita por acciones o, cuotas de capital de sociedades de responsabilidad
+limitada.
+\n1.3 .El ejercicio de influencia significativa en las decisiones, debe ser evaluado en cada caso particular.
+Entre las pautas que denotan la posible existencia de tal influencia, pueden mencionarse:
+\na) La posesión por parte de la empresa tenedora de una porción tal de capital de la sociedad
+vinculada que le otorgue los votos necesarios para influir en la aprobación de sus estados
+financieros y la distribución de ganancias;
+\nb) La representación en el directorio u órganos administrativos superiores de la sociedad vinculada;
+\nc) La participación en la fijación de políticas;
+\nd) La existencia de operaciones importantes entre la sociedad tenedora y la vinculada (por ejemplo,
+ser el único proveedor o cliente o el más importante con una diferencia significativa sobre el
+resto);
+\ne) El intercambio de personal directivo;
+\nf) La dependencia técnica de la sociedad vinculada;
+\ng) Al practicar la mencionada evaluación deben también tomarse en cuenta:
+\ng.1) La forma en que esté distribuido el resto del capital (mayor o menor concentración en
+manos de otros inversores).
+\ng.2) La existencia de acuerdos o situaciones que pudieran otorgar la dirección a algún grupo
+minoritario (sociedades intervenidas, en concurso preventivo, etc.)
+\n1.4 .El método del valor patrimonial proporcional no debe ser aplicado a la valuación de inversiones
+transitorias ni a inversiones permanentes donde no se ejerza el control a que se refiere el párrafo 1.1.
+En estos casos, el tratamiento contable debe efectuarse de acuerdo con lo establecido en la Decisión
+No. 6 de este Consejo Técnico. "
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="2. METODO DEL VALOR PATRIMONIAL PROPORCIONAL - CONCEPTO GENERAL
+\n2.1.A los efectos de ésta decisión, se entiende por valor patrimonial proporcional al resultante de aplicar
+al patrimonio neto de la sociedad emisora la proporción de la tenencia en acciones que corresponde
+a la empresa inversora. En caso de que el patrimonio de la sociedad emisora se encuentre
+parcialmente integrado por acciones preferidas sin derecho por sobre su valor nominal en caso de
+liquidación, el valor patrimonial proporcional de las acciones ordinarias se calculará sobre el monto
+del patrimonio neto menos el capital preferido y los dividendos acumulativos de las acciones
+preferidas.
+\n2.2.Las pautas básicas a considerar para la aplicación del método del valor patrimonial y proporcional son
+las siguientes:
+\na) La sociedad tenedora registra su inversión al valor patrimonial proporcional. Cuando éste difiera
+\ndel de costo, se aplican las normas específicas referidas en los párrafos 4.1 y 4.3.
+\nb) El valor de la inversión debe ser posteriormente ajustado para reflejar la proporción que a la
+empresa tenedora le corresponde en las ganancias o pérdidas de cada ejercicio de la empresa
+emisora; dicha proporción debe ser imputada a los resultados de la empresa tenedora según se
+indica en el párrafo 5.1.
+\n3. REQUISITOS PREVIOS
+ Para la aplicación de éste método es requisito que los estados financieros de la sociedad emisora
+hayan sido ajustados para reflejar los efectos de las variaciones en el poder adquisitivo de la moneda, tal
+como lo establece la Decisión Nº 6 de este Consejo Técnico.
+ En caso de que el ejercicio económico de la sociedad emisora tenga una fecha de cierre distinta a la
+de la sociedad tenedora:
+\na) Debe mantenerse la diferencia en tiempo entre ambos cierres, revelándose en nota a los
+estados financieros los efectos de cualquier cambio en este sentido.
+\nb) Debe considerarse el efecto de la desvalorización de la moneda entre la fecha de cierre de los
+estados financieros en ambos entes.
+\nc) Debe considerarse el efecto de las transacciones o eventos importantes que hayan ocurrido
+durante el periodo intermedio. por ejemplo pérdidas importantes de la sociedad emisora entre
+su fecha de cierre y la fecha de cierre de la sociedad tenedora.
+ \nAlternativamente, la sociedad tenedora podrá decidir considerar el valor patrimonial proporcional de
+las emisoras a la misma fecha de su cierre de ejercicio. Para ello, las sociedades emisoras deberán
+preparar un estado financiero especial a la fecha de cierre de la sociedad tenedora.
+ \nUna vez aplicado uno de los criterios respecto de la fecha de cierre (párrafos 3.2 ó 3.3) se deberá
+mantener el mismo criterio durante la vida del ente, exponiéndose en nota a los estados financieros los
+efectos de cualquier cambio en este sentido.
+\n2. VALUACION EN EL MOMENTO DE LA ADQUISICION DE LA INVERSION
+ Cuando se produce la adquisición de una participación inicial en la sociedad emisora cuya importancia
+permita la aplicación del método, la inversión se registrará por un importe equivalente a la proporción que
+la empresa tenedora adquiera sobre el patrimonio de la controlada o vinculada.
+ \nEl exceso o defecto del valor patrimonial sobre el de costo de adquisición se imputará a una cuenta
+que:
+\na) En caso de ser deudora se agregará el valor de la inversión o se tratará como derecho de
+llave, según resulte más adecuado a la luz de los antecedentes de la operación y de los
+estudios adicionales que puedan realizarse;
+\nb) En caso de ser acreedora se considerará regularizadora de la que refleje la inversión.
+ \nCuando ya existan inversiones anteriores y mediante nuevas adquisiciones o 4.3 por otras razones
+se presente una situación que justifique la utilización del método, éste deberá ser aplicado no solo a la
+nueva inversión sino también a las anteriores, para lo cual se deberá:"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="a) Calcular su valor patrimonial al momento en que el método comienza a ser aplicado;
+\nb) Determinar la diferencia entre el importe calculado según el inciso a) y el que aparece en los
+registros contables;
+\nc) Analizar la naturaleza de dicha diferencia para determinar la contrapartida que corresponde al
+ajuste del monto de las inversiones, debiendo tenerse en cuenta las siguientes pautas:
+\n- El mayor o menor valor de la inversión originada en los resultados de la empresa emisora
+generados en el ejercicio, debe ser considerado ganancia o pérdida del ejercicio;
+\n- El mayor o menor valor de la inversión originada por los resultados de la empresa emisora
+generados entre la fecha de adquisición original y el cierre del ejercicio anterior; debe ser
+computado como un ajuste de ejercicios anteriores;
+\n- El resto de la diferencia se imputará a una cuenta de idénticas características a la
+mencionada en el párrafo 4.2.
+\n5. APLICACION DEL METODO DURANTE LA TENENCIA
+\n5.1 La proporción que a la empresa tenedora corresponde sobre las ganancias o pérdidas de la empresa
+emisora se imputará a su estado de ganancias y pérdidas. Para aplicar esta norma debe tenerse en
+cuenta los siguientes aspectos:
+\na) Los resultados de la empresa emisora originados en operaciones con la compañía inversora que
+no hubiera trascendido a terceros deben ser eliminados;
+\nb) Las operaciones de la sociedad emisora que afectarán el total del patrimonio neto sin incidir en
+resultados deben considerarse en los registros de la inversora con igual sentido, es decir como
+movimientos de capital no originados en ganancias o pérdidas.
+\n- Los revalúos técnicos en la medida en que los importes revaluados excedan a los que
+resultarían del ajuste por inflación;
+\n- Los dividendos en efectivo o especie que reducen el valor patrimonial de la inversión.
+\nc) Debe procederse a la progresiva absorción de los valores del derecho de llave o de las cuentas
+regularizadoras de la inversión que corresponden a las diferencias entre valores de costo y
+patrimonial; al respecto debe tenerse en cuenta la posibilidad de que el mayor precio pagado
+correspondiera a sobrevalores de determinados bienes perfectamente identificados; en tal caso,
+la absorción del mayor valor puede ser efectuada teniendo en cuenta la desvalorización del bien
+de referencia o su eventual disposición por parte de la empresa inversora.
+Cuando el mayor precio no esté identificado con determinados bienes, se recomienda su
+absorción en un periodo no mayor a cinco años.
+\nd) Si la sociedad emisora tuviera acciones preferidas en circulación con dividendo acumulativo, la
+inversora debe computar su proporción en los resultados después de deducir los dividendos
+preferidos, hubieran o no sido declarados.
+\n5.2 El valor de la inversión debe ser llevado por debajo de su valor patrimonial cuando existieren
+elementos de juicio suficientes como para presumir la irrecuperabilidad total o parcial de la inversión.
+Como pautas para juzgar esta situación pueden mencionarse:
+\na) La imposibilidad por parte de la emisora de mantener su capacidad de generar ingresos;
+\nb) La existencia de pérdidas acumuladas significativas;
+\nc) La existencia de pérdidas ordinarias recurrentes en la subsidiaria o vinculada;
+\nd) La baja significativa de la cotización de sus acciones en los mercados de valores, cuando existan.
+\n6. TRATAMIENTO DE LA VENTA"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="6.1 El resultado de la venta de la inversión valuada por el método patrimonial proporcional se determina
+como diferencia entre el precio de venta y el valor en los libros de la inversora en el momento de la
+venta.
+\n6.2 .Si la venta fuera parcial y como consecuencia de ella desaparecieran las situaciones que justifican la
+aplicación del método, deberá discontinuarse su aplicación. El valor patrimonial a la fecha de la venta
+deberá ser reducido posteriormente en la medida en que los dividendos recibidos en efectivo a partir
+de ese momento acceden a la participación en las ganancias del ejercicio corriente de la sociedad
+emisora. Por otra parte, corresponderá también una reducción si ello fuera razonable para una mejor
+demostración de la situación patrimonial (es decir, si existiera un menor valor de la inversión, mas
+adecuado a las circunstancias).
+\n7. EXPOSICION DE LA INVERSION EN LOS ESTADOS FINANCIEROS
+\n7.1 Cuando se aplique el método del valor patrimonial proporcional, el importe de la inversión se
+presentará dentro del activo no corriente en el capítulo inversiones, mostrándose por separado los
+montos de la eventual cuenta de regularización del valor de la inversión. El importe correspondiente al
+valor del derecho de llave que pudiera haberse determinado por aplicación de las normas contenidas
+en los párrafos 4.2 y 4.3 se presentará en el rubro Bienes Intangibles.
+\n7.2 El resultado de la inversión determinado según lo expresado en el párrafo 5.1 debe ser presentado en
+principio dentro de los resultados ordinarios de la empresa tenedora. Sin embargo, en caso de que la
+empresa emisora hubiera computado resultados extraordinarios o ajustes de ejercicios anteriores, el
+mismo tratamiento merecerá en los registros de la sociedad inversora la proporción que le
+corresponda sobre tales resultados o ajustes.
+\n7.3 En notas a los estados financieros deberá revelarse la siguiente información:
+\na) La composición de las inversiones al cierre del ejercicio;
+\nb) El efecto de los cambios de criterios a que hacen referencia los párrafos 4.3 y 6.2.
+\n7.4 Cuando el valor de alguna inversión o los resultados que la misma originare fueren muy significativos
+con relación a la situación patrimonial o los resultados de la empresa inversora, deben acompañarse
+los estados financieros de la empresa emisora o un resumen de los mismos.
+\n8. TERMINOLOGIA
+\n8.1. Empresa Tenedora
+\nEs aquella que posee una porción tal de capital o influencia significativa en la sociedad vinculada que
+le permita influir en la aprobación de sus estados financieros y la distribución de ganancias.
+\n8.2 Empresas o sociedad emisora
+\nEs aquella sociedad que emite acciones que pueden estar en poder de una empresa tenedora.
+\n8.3 Sociedad Controlada
+\nUna sociedad es controlada cuando sus acciones están en poder de una empresa tenedora.
+\n8.4 Sociedades Vinculadas
+\nUna sociedad es vinculada con respecto a otras cuando todas están controladas por la
+misma empresa tenedora.
+\n8.5 Tenencia
+\nEs la participación accionaria en una empresa emisora.
+\n8.6 Acciones Preferidas
+\nLas acciones preferidas son las que establecen beneficios preferenciales. No votarán en las juntas
+ordinarias, sino exclusivamente en las extraordinarias, sin perjuicio de asistir con derecho a voz a las
+asambleas ordinarias. Se asignará a las acciones preferidas un dividendo no mayor al establecido por"
+                android:textSize="18sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="los estatutos, antes de fijar dividendos a las acciones ordinarias.
+\n8.7 Acciones Ordinarias
+\nSon aquellas acciones que tienen derecho a un voto por acción en las Juntas Generales de
+\nAccionistas.
+\n8.8 Inversiones Transitorias
+\nSon colocaciones temporarias con finalidades especificas, originadas principalmente, por fondos
+\disponibles que temporariamente no han de ser empleados para el desarrollo de la actividad principal
+del ente.
+\n8.9 Derecho de Llave
+\nEs el monto determinado por la diferencia del importe pagado y el valor patrimonial proporcional de la
+inversión.
+\n9. VIGENCIA DE ESTE PRONUNCIAMIENTO
+\nEl presente pronunciamiento técnico tendrá vigencia para los ejercicios anuales completos que se
+inicien a partir del 1ro de enero de 1992.
+\nAPROBACION
+\nEsta Decisión fue aprobada por el Consejo Técnico de Auditoría y Contabilidad en su reunión del 31 de
+marzo de 1992 con el voto favorable de todos sus miembro. La Decisión fue sancionada por la Comisión
+Directiva de Colegio de profesionales en Ciencias Económicas de Bolivia.
+Los miembros del Consejo Técnico Nacional de Auditoría y Contabilidad son los siguientes:
+\nPresidente: Lic. Victor Telleria Ormachea
+\nVicepresidente: Lic. Jorge Szasz Pianta
+\nConsejero: Lic. Martín calan Mamani
+\nConsejero: Lic. Rubén Centellas España
+\nConsejero: Lic. José Cusicanqui Cortez
+\nConsejero: Lic. Bernando Elsner Schweitzer
+\nConsejero: Lic. Milton Goyonaga Aracena
+\nConsejero: Lic. Luis Gutierrez Blanco
+\nConsejero: Lic. Carlos Miranda Zabala
+\nConsejero: Lic. Rolando Ortiz Hurtado
+\nConsejero: Lic. Humberto Rada Gomez
+\nSANCION DEL COMITE EJECUTIVO NACIONAL DEL COLEGIO DE AUDITORES DE BOLIVIA
+\nLa presente norma ha sido sancionada por el CEN del colegio de Auditores de Bolivia, en su sesión
+ordinaria Nº CAUB 30/94 de 16 de junio de 1994, de conformidad a las atribuciones contenidas en los
+Estatutos del Colegio.
+"
+                android:textSize="18sp"
+                android:padding="8dp" />
+            <!-- Puedes agregar más TextViews aquí si es necesario -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

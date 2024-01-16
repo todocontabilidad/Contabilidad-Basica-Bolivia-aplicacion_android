@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85C1E9"
+    tools:context="com.datos.contabilidadbasicabolivia.BlankFragment">
+
+    <!-- ScrollView con margen de 16dp en los 4 lados -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <!-- Contenedor LinearLayout para los elementos desplazables -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView con texto largo que puede desplazarse verticalmente -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textColor="#6C3483"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="NIIF Y NIC"
+                android:textColor="#6C3483"
+                android:textSize="22sp" />
+
+            <!-- Segundo TextView -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:padding="8dp"
+                android:text="¿Cuando Aplicar las NIIF y NIC? \nComo consecuencia del proceso de convergencia a NIIF el consejo técnico nacional de auditoría y contabilidad (CTNAC) establece el marco normativo técnico a través de la Resolución N° 01/2012 de 7 de noviembre de 2012 donde se mantiene la vigencia de las catorce (14) Normas de Contabilidad Generalmente Aceptadas para Bolivia, emitidas por el CTNAC del Colegio de Auditores o Contadores Públicos de Bolivia (CAUB) y de carácter supletorio o complementario se adoptan las NIIF, para su aplicación en ausencia de pronunciamientos técnicos específicos del país o reglamentaciones locales sobre asuntos determinados.
+
+En este sentido, la Norma de contabilidad Nº 11 (NC N° 11) relativa a Información esencial requerida para una adecuada exposición de los estados financieros, obliga a las empresas a presentar el compendio completo de los estados financieros incluyendo el estado de flujo de efectivo, en la cual se expone la definición del estado de flujo de efectivo:
+
+Es un estado financiero básico, dinámico que expone el flujo de efectivo (embolsos y desembolsos) del efectivo y equivalentes, o los cambios en los recursos de la entidad, originados en actividades de operación, inversión.
+
+Sin embargo, esta norma no establece cuál es la forma de preparar el estado de flujo de efectivo. Por lo tanto, al no contar con suficientes pronunciamientos técnicos contables en las actuales Normas de Contabilidad se adoptan sustancialmente las NIIF, siendo la NIC 7 la norma que debe ser aplicada para la elaboración y presentación del estado de flujo de efectivo.
+
+El objetivo de la Norma Internacional de Contabilidad N° 7 (NIC 7), es requerir el suministro de información sobre los cambios históricos en el efectivo y sus equivalentes de una entidad mediante un estado de flujo de efectivo en el que los flujos de fondos del período se clasifiquen según procedan de actividades de operación, de inversión y de financiación."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textColor="#6C3483"
+                android:textSize="22sp" />
+
+            <!-- Puedes agregar más elementos aquí si es necesario -->
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+

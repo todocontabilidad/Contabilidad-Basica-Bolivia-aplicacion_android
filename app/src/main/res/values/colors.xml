@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="red">#5DC1B9</color>
+    <color name="lavender">#E6E6FA</color>
+
+
+    <color name="pink">#F06292</color>
+    <color name="darkGray">#A9A9A9</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="navy">#000080</color>
+    <color name="darkGreen">#006400</color>
+    <color name="maroon">#800000</color>
+    <color name="darkSlate">#2F4F4F</color>
+    <color name="charcoal">#36454F</color>
+    <color name="taupe">#483C32</color>
+    <color name="crema">#BFF7DC</color>
+    <color name="DarkGray2">#717D7E</color>
+
+
+    <dimen name="bottom_navigation_height">48dp</dimen>
+    <dimen name="bottom_navigation_width">415dp</dimen>
+
+
+    <color name="my_dark_primary">#242424</color>
+    <color name="my_dark_primary_variant">#1C1C1C</color>
+    <color name="my_dark_text_color_primary">#FFFFFF</color>
+    <color name="my_dark_status_bar_color">#121212</color>
+
+    <!-- res/values/colors.xml -->
+
+</resources>

@@ -1,0 +1,271 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#85C1E9">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="PLAN DE CUENTAS\n(Para empresas comerciales)"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <!-- ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Contenido de la ScrollView -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Encabezados de la tabla -->
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="10dp"
+                        android:text="CÓDIGO Nº"
+                        android:textColor="#FFFFFF"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:fontFamily="@font/archivo_black"
+                        android:padding="10dp"
+                        android:textColor="#FFFFFF"
+                        android:text="DESCRIPCIÓN"
+                        android:typeface="monospace" />
+                </TableRow>
+
+                <!-- Datos de la tabla (filas adicionales) -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000" />
+                <!-- Cuentas de Ventas y Servicios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="41"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="INGRESOS"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="41101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="INGRESOS OPERATIVOS"
+                        android:padding="10dp" />
+                </TableRow>
+
+
+
+
+                <!-- Cuentas de Ventas y Servicios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="41101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ventas de Productos"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="41102"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ventas de Servicios"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Descuentos y Devoluciones -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="41201"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Descuentos en Ventas"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="42101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Intereses Ganados"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Ingresos por Alquiler -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="43101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Alquiler de Propiedades"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Ingresos por Publicidad -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="44101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ingresos por Publicidad en Medios"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Ingresos por Donaciones -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="45101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Donaciones Recibidas"
+                        android:padding="10dp" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="46101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ingresos por Licencias de Uso"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Ingresos por Subsidios -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="47101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Subsidios Gubernamentales"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Ingresos por Multas y Sanciones -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="48101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Multas Disciplinarias"
+                        android:padding="10dp" />
+                </TableRow>
+
+                <!-- Cuentas de Ingresos por Eventos -->
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="49101"
+                        android:padding="10dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Ingresos por Eventos Especiales"
+                        android:padding="10dp" />
+                </TableRow>
+
+
+
+            </TableLayout>
+        </ScrollView>
+    </ScrollView>
+</LinearLayout>

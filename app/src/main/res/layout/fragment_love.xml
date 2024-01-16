@@ -1,0 +1,467 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#85C1E9">
+
+        <!-- Primera fila de la tabla -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/abril_fatface"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textColor="#154360"
+                android:textSize="22sp"
+                android:typeface="serif" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/abril_fatface"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="NORMAS DE CONTABILIDAD NACIONAL"
+                android:textColor="#154360"
+                android:textSize="22sp"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <!-- Segunda fila de la tabla -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                android:padding="1dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                android:padding="1dp"
+                android:ellipsize="end"
+                android:singleLine="true" />
+        </TableRow>
+
+        <!-- Tercera fila de la tabla -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|end" />
+            <TextView
+                android:id="@+id/textViewClickable"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Principios y normas técnico contables generalmente aceptados para la preparación de EE. FF."
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/textViewClickable1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tratamiento contable de hechos posteriores al cierre del ejercicio"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_tres"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Estados financieros a moneda constante (ajuste por inflación)"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_cuatro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Revalorización técnica de activos fijos"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_cinco"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Principios de contabilidad para la industria minera"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_seis"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tratamiento contable de las diferencias de cambio"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_siete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Valuación de inversiones permanentes"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_ocho"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Consolidación de estados financieros"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_nueve"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Normas de contabilidad para la industria petrolera"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_diez"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tratamiento contable de los arrendamientos"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_once"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Información esencial requerida para una adecuada exposición de los Estados Financieros"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_doce"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tratamiento contable de operaciones en moneda extranjera cuando coexisten mas de tipo de cambio"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_trece"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cambios contables y su exposición"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14.-"
+                android:textSize="15sp"
+                android:textColor="#17202A"
+                android:padding="8dp"
+                android:gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/norma_catorce"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Políticas contables su exposición y revelación"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:singleLine="false" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/abril_fatface"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textColor="#154360"
+                android:textSize="22sp"
+                android:typeface="serif" />
+
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
