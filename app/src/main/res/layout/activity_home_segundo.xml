@@ -143,7 +143,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="4dp"
                         android:text="RETENCIONES DE SERVICIO"
-                        android:theme="@style/button2"
+                        android:theme="@style/button3"
                         android:textColor="#000000"
                         android:textSize="10sp" />
 
@@ -155,19 +155,19 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="4dp"
                         android:text="RETENCIONES DE BIENES"
-                        android:theme="@style/button2"
+                        android:theme="@style/button3"
                         android:textColor="#000000"
                         android:textSize="10sp" />
 
                     <Button
-                        android:id="@+id/compra_libros"
+                        android:id="@+id/retenciones_alquiler"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_rowWeight="1"
                         android:layout_columnWeight="1"
                         android:layout_margin="4dp"
-                        android:text="COMPRA DE LIBROS"
-                        android:theme="@style/button2"
+                        android:text="RETENCIONES ALQUILER"
+                        android:theme="@style/button3"
                         android:textColor="#000000"
                         android:textSize="10sp" />
 

@@ -10,7 +10,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="16dp">
+        android:layout_margin="16dp"
+        android:fadeScrollbars="false">
 
         <!-- Contenedor LinearLayout para los elementos desplazables -->
         <LinearLayout
@@ -34,9 +35,9 @@
                 android:fontFamily="@font/archivo_black"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="NIIF Y NIC"
-                android:textColor="#6C3483"
-                android:textSize="22sp" />
+                android:text="Normas Internacionales de Información Financiera NIIF Y Normas Internacionales de Contabilidad NIC"
+                android:textColor="#FFEB3B"
+                android:textSize="20sp" />
 
             <!-- Segundo TextView -->
             <TextView
@@ -52,8 +53,15 @@ Es un estado financiero básico, dinámico que expone el flujo de efectivo (embo
 
 Sin embargo, esta norma no establece cuál es la forma de preparar el estado de flujo de efectivo. Por lo tanto, al no contar con suficientes pronunciamientos técnicos contables en las actuales Normas de Contabilidad se adoptan sustancialmente las NIIF, siendo la NIC 7 la norma que debe ser aplicada para la elaboración y presentación del estado de flujo de efectivo.
 
-El objetivo de la Norma Internacional de Contabilidad N° 7 (NIC 7), es requerir el suministro de información sobre los cambios históricos en el efectivo y sus equivalentes de una entidad mediante un estado de flujo de efectivo en el que los flujos de fondos del período se clasifiquen según procedan de actividades de operación, de inversión y de financiación."
-                android:textSize="15sp" />
+El objetivo de la Norma Internacional de Contabilidad N° 7 (NIC 7), es requerir el suministro de información sobre los cambios históricos en el efectivo y sus equivalentes de una entidad mediante un estado de flujo de efectivo en el que los flujos de fondos del período se clasifiquen según procedan de actividades de operación, de inversión y de financiación.
+\n
+\n
+\n
+\n
+\n
+\n"
+                android:textSize="16dp"
+                android:textColor="#000000"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -68,5 +76,36 @@ El objetivo de la Norma Internacional de Contabilidad N° 7 (NIC 7), es requerir
 
         </LinearLayout>
     </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:padding="16dp">
+
+        <!-- Primer botón -->
+        <Button
+            android:id="@+id/your_button_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/button6"
+            android:text="NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA"
+            android:onClick="onClickBoton1" />
+
+        <!-- Segundo botón -->
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/button9"
+            android:text="NORMAS INTERNACIONALES CONTABILIDAD"
+            android:onClick="onClickBoton2" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1" />
+
+    </LinearLayout>
 </FrameLayout>
 

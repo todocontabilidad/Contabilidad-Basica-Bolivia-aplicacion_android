@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.datos.contabilidadbasicabolivia.R;
+import com.github.barteksc.pdfviewer.PDFView;
 
 public class NCUnoActivity extends AppCompatActivity {
 
@@ -12,5 +13,9 @@ public class NCUnoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ncuno);
+
+        PDFView pdfView=findViewById(R.id.pdfview);
+
+        pdfView.fromAsset("nc1.pdf").load();
     }
 }

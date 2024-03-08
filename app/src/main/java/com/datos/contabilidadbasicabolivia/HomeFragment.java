@@ -181,15 +181,6 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        //Para mas botones
-        Button boton_final= view.findViewById(R.id.buttonFinal);
-        boton_final.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                Intent siguiente = new Intent(getActivity(), Home_segundo.class);
-                startActivity(siguiente);
-            }
-        });
 
         return view;
     }

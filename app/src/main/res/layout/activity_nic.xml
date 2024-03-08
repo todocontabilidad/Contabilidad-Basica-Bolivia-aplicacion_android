@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85C1E9"
+    tools:context="com.NIC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#85C1E9">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/abril_fatface"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="NORMAS INTERNACIONALES DE CONTABILIDAD"
+                    android:textColor="#154360"
+                    android:textSize="22sp"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <!-- Lista de Normas -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_uno"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Presentación de Estados Financieros"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_dos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Existencias"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <!-- Repite este bloque para las demás normas -->
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_tres"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Estado de Flujos de Efectivo"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_cuatro"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Políticas contables cambios en las estimaciones contables y errores"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_cinco"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hechos posteriores a la fecha de balance"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_seis"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Contratos de Construcción"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_siete"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Impuesto sobre las Ganancias"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_ocho"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Información Financiera por segmentos"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_nueve"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Inmovilizado material"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_diez"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Arrendamientos"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_once"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ingresos Ordinarios"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_doce"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Retribuciones a los empleados"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_trece"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Contabilización de las Subvenciones Oficiales e Información a Revelar sobre Ayudas Públicas"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_catorce"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Efectos de las variaciones en los tipos de cambio de la moneda extranjera"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_quince"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Costes por intereses"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_dieciseis"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Información a revelar por partes vinculadas"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_diecisiete"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Contabilización e Información Financiera sobre Planes de Prestaciones sobre Retiros"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_dieciocho"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Estados Financieros Consolidados y separados"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_diecinueve"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Inversiones en entidades asociadas"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veinte"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Información Financiera en Economías Híper inflacionarias"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veintiuno"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Información a Revelar en los Estados Financieros de Bancos y Entidades Financieras Similares"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="22."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veintidos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Participaciones en negocios conjuntos"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="23."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veintitres"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Instrumentos Financieros Presentación"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veinticuatro"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ganancias por Acción"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+            <!-- Norma 25 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veinticinco"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Información Financiera Intermedia"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <!-- Norma 26 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veintiseis"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Deterioro del Valor de los Activos"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <!-- Norma 27 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="27."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veintisiete"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Provisiones Activos Contingentes y Pasivos Contingentes"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <!-- Norma 28 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="28."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veintiocho"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Activos Intangibles"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <!-- Norma 29 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="29."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_veintinueve"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Instrumentos Financieros Reconocimiento y Valoración"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <!-- Norma 30 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_treinta"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Inversiones Inmobiliarias"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+            <!-- Norma 31 -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="31."
+                    android:textSize="15sp"
+                    android:textColor="#17202A"
+                    android:padding="8dp"
+                    android:gravity="center_vertical|end" />
+                <TextView
+                    android:id="@+id/norma_treinta_uno"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Agricultura"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:padding="8dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.github.barteksc.pdfviewer.PDFView;
+
 public class NCDiez extends AppCompatActivity {
 
     @Override
@@ -11,6 +13,9 @@ public class NCDiez extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ncdiez);
 
+        PDFView pdfView=findViewById(R.id.pdfview);
+
+        pdfView.fromAsset("nc10.pdf").load();
 
 
 

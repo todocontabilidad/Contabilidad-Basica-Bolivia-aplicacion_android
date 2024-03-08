@@ -19,6 +19,17 @@
     <color name="taupe">#483C32</color>
     <color name="crema">#BFF7DC</color>
     <color name="DarkGray2">#717D7E</color>
+    <color name="naranja">#F4D03F</color>
+
+    <color name="Lila">#E6E6FA</color>
+    <color name="Turquesa">#00CED1</color>
+    <color name="Mint">#98FF98</color>
+    <color name="Coral">#FF6F61</color>
+    <color name="Amarillopastel">#FFFACD</color>
+    <color name="Grisperla">#DCDCDC</color>
+    <color name="Fucsia">#FF00FF</color>
+    <color name="Aqua">#00FFFF</color>
+    <color name="Melocotón">#FFDAB9</color>
 
 
     <dimen name="bottom_navigation_height">48dp</dimen>

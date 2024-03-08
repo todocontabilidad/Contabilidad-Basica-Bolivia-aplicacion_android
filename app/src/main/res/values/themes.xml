@@ -39,4 +39,39 @@
         <item name="android:statusBarColor">@color/darkGreen</item>
     </style>
 
+    <style name="button3" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/naranja</item>
+        <item name="colorPrimaryVariant">@color/lightGray</item>
+        <item name="android:textColorPrimary">@color/navy</item>
+        <item name="android:statusBarColor">@color/darkGreen</item>
+    </style>
+
+    <style name="button4" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Coral</item>
+    </style>
+
+    <style name="button5" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lila</item>
+    </style>
+
+    <style name="button6" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Turquesa</item>
+    </style>
+
+    <style name="button7" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Mint</item>
+    </style>
+
+    <style name="button8" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amarillopastel</item>
+    </style>
+
+    <style name="button9" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Fucsia</item>
+    </style>
+
+    <style name="button10" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Melocotón</item>
+    </style>
+
 </resources>

@@ -58,7 +58,8 @@ public class Home_segundo extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Correctly reference the activity using Home_segundo.this
-                Toast.makeText(Home_segundo.this, "Information available only in the paid version", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Home_segundo.this, Retenciones_Servicios.class);
+                startActivity(intent);
             }
         });
         // Assuming you have a button with the id "impuestocomsumoespecifico" in your XML layout
@@ -68,19 +69,20 @@ public class Home_segundo extends AppCompatActivity {
         btnInfoDev4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Correctly reference the activity using Home_segundo.this
-                Toast.makeText(Home_segundo.this, "Information available only in the paid version", Toast.LENGTH_SHORT).show();
+                // Agregar el código para iniciar la actividad Retenciones_Bienes_Muebles
+                Intent intent = new Intent(Home_segundo.this, Retenciones_Bienes_Muebles.class);
+                startActivity(intent);
             }
         });
         // Assuming you have a button with the id "impuestocomsumoespecifico" in your XML layout
-        Button btnInfoDev5 = findViewById(R.id.compra_libros);
+        Button btnInfoDev5 = findViewById(R.id.retenciones_alquiler);
 
         // Set a click listener for the button
         btnInfoDev5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Correctly reference the activity using Home_segundo.this
-                Toast.makeText(Home_segundo.this, "Information available only in the paid version", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Home_segundo.this, Retenciones_alquiler.class);
+                startActivity(intent);
             }
         });
         // Assuming you have a button with the id "impuestocomsumoespecifico" in your XML layout

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondoverde8"
-    tools:context=".Informacion_autor">
+    tools:context=".Facturacion">
 
     <!-- ScrollView con margen de 16dp en los 4 lados -->
     <ScrollView

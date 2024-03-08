@@ -59,7 +59,7 @@
 
         <TableLayout
             android:layout_width="347dp"
-            android:layout_height="1200dp"
+            android:layout_height="1300dp"
             android:layout_marginTop="24dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -257,6 +257,7 @@
             </TableRow>
 
             <TableRow
+                android:id="@+id/tableRow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 

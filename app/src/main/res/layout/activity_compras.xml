@@ -43,7 +43,7 @@
 
     <TableLayout
         android:layout_width="354dp"
-        android:layout_height="762dp"
+        android:layout_height="862dp"
         android:layout_marginTop="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -209,6 +209,7 @@
         </TableRow>
 
         <TableRow
+            android:id="@+id/tableRow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -273,7 +274,9 @@
                 android:layout_weight="2.5"
                 android:maxLines="20"
                 android:textColor="#402945"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:ellipsize="none"
+                android:singleLine="false"/>
         </TableRow>
 
         <TableRow
@@ -301,7 +304,10 @@
                 android:layout_weight="2.5"
                 android:maxLines="20"
                 android:textColor="#402945"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:ellipsize="none"
+                android:singleLine="false"/>
+
         </TableRow>
     </TableLayout>
 

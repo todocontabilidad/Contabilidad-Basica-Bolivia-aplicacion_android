@@ -55,7 +55,9 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/red"
                 android:src="@drawable/baseline_add_24"
+
                 android:id="@+id/fab"
+
                 app:layout_anchor="@id/bottomAppBar"
                 app:maxImageSize="40dp"
                 android:tint="@color/black"/>
@@ -74,6 +76,7 @@
         android:theme="@style/ThemeOverlay.AppCompat.navTheme"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/navigation_drawer_menu"/>
+
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.datos.contabilidadbasicabolivia">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,8 +15,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ContabilidadBasicaBolivia"
         tools:targetApi="31">
-
-
+        <activity
+            android:name=".NIIFocho"
+            android:exported="false" />
+        <activity
+            android:name=".NIIFsiete"
+            android:exported="false" />
+        <activity
+            android:name=".NIIFseis"
+            android:exported="false" />
+        <activity
+            android:name=".NIIFcinco"
+            android:exported="false" />
+        <activity
+            android:name=".NIIFcuatro"
+            android:exported="false" />
+        <activity
+            android:name=".NIIFtres"
+            android:exported="false" />
+        <activity
+            android:name=".NIIFdos"
+            android:exported="false" />
+        <activity
+            android:name=".NIIFuno"
+            android:exported="false" />
+        <activity
+            android:name="com.NIC"
+            android:exported="false" />
+        <activity
+            android:name=".NIIF"
+            android:exported="false" />
+        <activity
+            android:name=".Retenciones_alquiler"
+            android:exported="false" />
+        <activity
+            android:name=".Retenciones_Servicios"
+            android:exported="false" />
+        <activity
+            android:name=".Retenciones_Bienes_Muebles"
+            android:exported="false" />
         <activity
             android:name=".NCCatorce"
             android:exported="false" />
@@ -73,7 +109,7 @@
             android:name=".NCTres"
             android:exported="false" />
         <activity
-            android:name=".Informacion_autor"
+            android:name=".Facturacion"
             android:exported="false" />
         <activity
             android:name=".Ajuste_Contable"
@@ -129,6 +165,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

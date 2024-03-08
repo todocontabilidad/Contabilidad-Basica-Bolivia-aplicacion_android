@@ -1,8 +1,11 @@
 package com.datos.contabilidadbasicabolivia;
 
+import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -11,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.datos.contabilidadbasicabolivia.R;
 
 import java.text.DecimalFormat;
+import java.util.Random;
 
 public class Ventas extends AppCompatActivity {
 
@@ -22,6 +26,49 @@ public class Ventas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ventas);
+
+        // Encuentra la TableRow y el TextView por sus ID en el layout activity_compra_activos
+        TableRow tableRow = findViewById(R.id.tableRow);
+        TextView textView = findViewById(R.id.glosa_01);
+
+        // Define una lista de colores de fondo
+        int[] backgroundColors = {
+                Color.parseColor("#1565c0"), // Azul oscuro
+                Color.parseColor("#4caf50"), // Verde
+                Color.parseColor("#f44336"), // Rojo
+                Color.parseColor("#ff9800"), // Naranja
+                Color.parseColor("#9c27b0"), // Morado
+                Color.parseColor("#009688"), // Turquesa
+                Color.parseColor("#607d8b"), // Gris azulado
+                Color.parseColor("#673ab7"), // Púrpura
+                Color.parseColor("#795548"), // Marrón
+                Color.parseColor("#3f51b5"), // Azul índigo
+                Color.parseColor("#ff5722"), // Rojo anaranjado
+                Color.parseColor("#e91e63"), // Rosa
+                Color.parseColor("#00bcd4"), // Cian
+                Color.parseColor("#ffc107"), // Ámbar
+                Color.parseColor("#8bc34a"), // Lima
+                Color.parseColor("#9e9e9e"), // Gris
+                Color.parseColor("#ffeb3b")  // Amarillo
+        };
+
+        // Selecciona un color aleatorio de la lista de colores de fondo
+        int randomColorIndex = new Random().nextInt(backgroundColors.length);
+        int backgroundColor = backgroundColors[randomColorIndex];
+
+        // Define el radio de los bordes en píxeles
+        int cornerRadius = 6;
+
+        // Crea un GradientDrawable con el color y los bordes redondeados
+        GradientDrawable gradientDrawable = new GradientDrawable();
+        gradientDrawable.setColor(backgroundColor);
+        gradientDrawable.setCornerRadius(cornerRadius);
+
+        // Establece el fondo del TableRow como el GradientDrawable
+        tableRow.setBackground(gradientDrawable);
+
+        // Establece el color del texto en blanco
+        textView.setTextColor(Color.WHITE);
 
         et1 = (EditText) findViewById(R.id.editTextNumber);
         tvcompra = (TextView) findViewById(R.id.espacio_01);

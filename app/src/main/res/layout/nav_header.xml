@@ -6,25 +6,44 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:padding="16dp"
-    android:background="#E5E8E8">
+    android:background="#5DC1B9">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Información de la aplicación"
         android:textSize="20sp"
-        android:textColor="#333333"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:layout_marginBottom="16dp" />
 
     <ImageView
         android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_height="179dp"
         android:layout_gravity="center"
-        android:src="@drawable/carlos"
-        android:scaleType="centerCrop"
-        android:background="@android:color/darker_gray"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"
+        android:scaleType="centerCrop"
+        android:src="@drawable/carlos" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp">
+
+        <!-- Puedes agregar más elementos aquí, por ejemplo, otro TextView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gracias por usar la app"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF" />
+
+        <!-- Puedes agregar más elementos aquí según tus necesidades -->
+
+    </LinearLayout>
 
 </LinearLayout>
