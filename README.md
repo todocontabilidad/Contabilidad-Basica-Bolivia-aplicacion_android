@@ -1,4 +1,5 @@
 Bienvenido/a al Repositorio de Carlos Alfredo Apaza B.
+
 ¡Hola! Gracias por interesarte en contribuir al proyecto Contabilidad Básica Bolivia. Este repositorio está abierto a colaboradores de cualquier nivel de experiencia, 
 y apreciamos todas las contribuciones, ya sean pequeñas correcciones de errores, mejoras en la documentación o características nuevas.
 
