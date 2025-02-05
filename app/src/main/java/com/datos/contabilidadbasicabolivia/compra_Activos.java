@@ -73,8 +73,8 @@ public class compra_Activos extends AppCompatActivity {
         textView.setTextColor(Color.WHITE);
 
 
-        et1 = (EditText) findViewById(R.id.editTextNumber);//Débito fiscal IVA
-        et2 = (EditText)findViewById(R.id.editTextNumber1);//Crédito fiscal IVA
+        et1 = (EditText) findViewById(R.id.editTextTexto);//Nombre del activo
+        et2 = (EditText) findViewById(R.id.editTextNumber1);//Valor del activo
         espacioliteral01=(TextView)findViewById(R.id.espacioletras1);
         espacioliteral02=(TextView)findViewById(R.id.espacioliteral2);
         espacioliteral03=(TextView)findViewById(R.id.espacioliteral3);
@@ -101,7 +101,9 @@ public class compra_Activos extends AppCompatActivity {
             String valor1_String = et1.getText().toString();
             String valor2_String = et2.getText().toString();
             double valor2 = Double.parseDouble(valor2_String);
-            DecimalFormat decimalFormat = new DecimalFormat("#.##");//formatear números decimales en diferentes representaciones
+            //--------------------------------------------------------------------
+            DecimalFormat decimalFormat = new DecimalFormat("#.##");
+            //formatear números decimales en diferentes representaciones
             // Convertir la cadena a minúsculas antes de usarla en el switch
             valor1_String = valor1_String.toUpperCase();
 
@@ -152,18 +154,25 @@ public class compra_Activos extends AppCompatActivity {
             double compra=valor2*0.87;
             double credito=valor2*0.13;
             double caja=valor2;
+            //-----------------------------------------------------------------------
             String valor_compra =decimalFormat.format(compra);
             String valor_credito =decimalFormat.format(credito);
             String valor_caja=decimalFormat.format(caja);
-            espacioliteral01.setText(""+valor1_String);
+            //-----------------------------------------------------------------------
+            if (valor1_String.isEmpty()) {
+                espacioliteral01.setText("Activo...");
+            } else {
+                espacioliteral01.setText(valor1_String);
+            }
+            //espacioliteral01.setText(""+valor1_String);
             espacioliteral02.setText("Crédito fiscal IVA");
             espacioliteral03.setText("  Caja Moneda Nacional");
-            espacio_numero1.setText(""+compra);
+            espacio_numero1.setText(""+valor_compra);
             espacio_numero2.setText("");
-            espacio_numero3.setText(""+credito);
+            espacio_numero3.setText(""+valor_credito);
             espacio_numero4.setText("");
             espacio_numero5.setText("");
-            espacio_numero6.setText(""+caja);
+            espacio_numero6.setText(""+valor_caja);
             espacio_numero7.setText("");
             espacio_numero8.setText("");
             //mesajes

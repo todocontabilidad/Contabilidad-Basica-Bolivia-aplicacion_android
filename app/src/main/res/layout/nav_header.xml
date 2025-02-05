@@ -6,12 +6,12 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:padding="16dp"
-    android:background="#5DC1B9">
+    android:background="#17202A">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Información de la aplicación"
+        android:text="Más información"
         android:textSize="20sp"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
