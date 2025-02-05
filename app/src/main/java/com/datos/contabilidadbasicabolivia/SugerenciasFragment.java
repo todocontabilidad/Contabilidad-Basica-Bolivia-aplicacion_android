@@ -1,64 +1,96 @@
 package com.datos.contabilidadbasicabolivia;
 
+
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link LibraryFragment#newInstance} factory method to
+ * Use the  factory method to
  * create an instance of this fragment.
  */
-public class LibraryFragment extends Fragment {
+public class SugerenciasFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private EditText nameEditText, ageEditText, colorEditText;
+    private Button addButton;
+    private FirebaseFirestore mfirestore;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public LibraryFragment() {
+    public SugerenciasFragment() {
         // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment LibraryFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static LibraryFragment newInstance(String param1, String param2) {
-        LibraryFragment fragment = new LibraryFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_library, container, false);
+        View view = inflater.inflate(R.layout.fragment_sugerencias, container, false);
+
+        // Initialize views
+        nameEditText = view.findViewById(R.id.nombre);
+        ageEditText = view.findViewById(R.id.edad);
+        colorEditText = view.findViewById(R.id.color);
+        addButton = view.findViewById(R.id.btn_add);
+
+        mfirestore = FirebaseFirestore.getInstance();
+
+        // Button click listener
+        addButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String name = nameEditText.getText().toString().trim();
+                String age = ageEditText.getText().toString().trim();
+                String color = colorEditText.getText().toString().trim();
+
+                if (!name.isEmpty() && !age.isEmpty() && !color.isEmpty()) {
+                    addPet(name, age, color);
+                } else {
+                    // Show error message if any field is empty
+                    // You can customize this part as per your requirement
+                    // For now, showing a toast message
+                    Toast.makeText(getActivity(), "Ingrese todos los datos", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        return view;
+    }
+
+    private void addPet(String namepet, String agepet, String colorpet) {
+        Map<String, Object> map = new HashMap<>();
+        map.put("name", namepet);
+        map.put("age", agepet);
+        map.put("color", colorpet);
+        mfirestore.collection("pet").add(map).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+            @Override
+            public void onSuccess(DocumentReference documentReference) {
+                Toast.makeText(getActivity(), "¡SUGERENCIA GUARDADA EXITOSAMENTE!", Toast.LENGTH_SHORT).show();
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Toast.makeText(getActivity(), "ERROR, REVISE SU CONEXIÓN A INTERNET", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

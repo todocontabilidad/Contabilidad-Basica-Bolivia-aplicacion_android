@@ -75,9 +75,13 @@
                         android:gravity="center_horizontal"
                         android:text="CONTABILIDAD BÁSICA"
                         android:textColor="#DA1966"
-                        android:textSize="25sp"
+                        android:textSize="23sp"
                         android:textStyle="bold"
                         app:autoSizeTextType="uniform"
+                        android:shadowColor="#311B92"
+                        android:shadowDx="1"
+                        android:shadowDy="6"
+                        android:shadowRadius="8"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -93,6 +97,10 @@
                     android:textColor="#000000"
                     android:textSize="19sp"
                     android:textStyle="bold"
+                    android:shadowColor="#311B92"
+                    android:shadowDx="1"
+                    android:shadowDy="6"
+                    android:shadowRadius="8"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
@@ -120,6 +128,12 @@
                     android:textColor="#28B463"
                     android:textSize="19sp"
                     android:textStyle="bold"
+
+                    android:shadowColor="#311B92"
+                    android:shadowDx="1"
+                    android:shadowDy="6"
+                    android:shadowRadius="8"
+
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
@@ -147,7 +161,7 @@
                         android:layout_margin="4dp"
                         android:text="COMPRAS"
                         android:theme="@style/button"
-                        android:textColor="@color/white"
+                        android:textColor="#333333"
                         android:textSize="10sp"
                         android:gravity="center"
                         android:paddingStart="8dp"
@@ -164,7 +178,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="VENTAS"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp" />
 
                     <Button
@@ -176,7 +190,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="Cálculo y\nLiquidación del IVA"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp" />
 
 
@@ -189,7 +203,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="Devolución en compras"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp"/>
 
                     <Button
@@ -201,7 +215,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="Devolución en ventas"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp"/>
 
                     <Button
@@ -213,7 +227,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="COMPRA DE GASOLINA"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp"/>
 
                     <Button
@@ -225,7 +239,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="COMPRA DE ACTIVOS"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp"/>
 
                     <Button
@@ -237,7 +251,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="VENTA DE ACTIVOS"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp"/>
 
                     <Button
@@ -249,7 +263,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="LIQUIDACIÓN DEL IT"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp"/>
 
                     <Button
@@ -261,7 +275,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="AJUSTES CONTABLES"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp"/>
 
                     <Button
@@ -273,7 +287,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="DEPRESIACIÓN ACTIVOS"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp"/>
 
                     <Button
@@ -285,7 +299,7 @@
                         android:layout_margin="4dp"
                         android:theme="@style/button"
                         android:text="PAGO DEL IUE"
-                        android:textColor="#ffffff"
+                        android:textColor="#333333"
                         android:textSize="10sp"/>
 
 

@@ -11,8 +11,8 @@ android {
         applicationId "com.datos.contabilidadbasicabolivia"
         minSdk 27
         targetSdk 34
-        versionCode 12
-        versionName "1.11"
+        versionCode 18
+        versionName "1.17"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -44,6 +44,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics'
 
     implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'com.google.firebase:firebase-firestore:25.0.0'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

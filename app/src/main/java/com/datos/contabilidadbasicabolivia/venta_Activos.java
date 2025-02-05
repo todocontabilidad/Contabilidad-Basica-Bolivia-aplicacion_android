@@ -35,23 +35,13 @@ public class venta_Activos extends AppCompatActivity {
 
         // Define una lista de colores de fondo
         int[] backgroundColors = {
-                Color.parseColor("#1565c0"), // Azul oscuro
-                Color.parseColor("#4caf50"), // Verde
-                Color.parseColor("#f44336"), // Rojo
-                Color.parseColor("#ff9800"), // Naranja
-                Color.parseColor("#9c27b0"), // Morado
-                Color.parseColor("#009688"), // Turquesa
-                Color.parseColor("#607d8b"), // Gris azulado
-                Color.parseColor("#673ab7"), // Púrpura
-                Color.parseColor("#795548"), // Marrón
-                Color.parseColor("#3f51b5"), // Azul índigo
-                Color.parseColor("#ff5722"), // Rojo anaranjado
-                Color.parseColor("#e91e63"), // Rosa
-                Color.parseColor("#00bcd4"), // Cian
-                Color.parseColor("#ffc107"), // Ámbar
-                Color.parseColor("#8bc34a"), // Lima
-                Color.parseColor("#9e9e9e"), // Gris
-                Color.parseColor("#ffeb3b")  // Amarillo
+                Color.parseColor("#ABEBC6"),
+                Color.parseColor("#AED6F1"),
+                Color.parseColor("#D2B4DE"),
+                Color.parseColor("#E6B0AA"),
+                Color.parseColor("#AEB6BF"),
+                Color.parseColor("#EDBB99"),
+                Color.parseColor("#D6DBDF")
         };
 
         // Selecciona un color aleatorio de la lista de colores de fondo
@@ -70,7 +60,7 @@ public class venta_Activos extends AppCompatActivity {
         tableRow.setBackground(gradientDrawable);
 
         // Establece el color del texto en blanco
-        textView.setTextColor(Color.WHITE);
+        textView.setTextColor(Color.parseColor("#000000"));
 
 
         et1 = (EditText) findViewById(R.id.editTextNumber);//Débito fiscal IVA
@@ -158,12 +148,12 @@ public class venta_Activos extends AppCompatActivity {
             espacioliteral01.setText(""+valor1_String);
             espacioliteral02.setText("Crédito fiscal IVA");
             espacioliteral03.setText("  Caja Moneda Nacional");
-            espacio_numero1.setText(""+compra);
+            espacio_numero1.setText(""+valor_compra);
             espacio_numero2.setText("");
-            espacio_numero3.setText(""+credito);
+            espacio_numero3.setText(""+valor_credito);
             espacio_numero4.setText("");
             espacio_numero5.setText("");
-            espacio_numero6.setText(""+caja);
+            espacio_numero6.setText(""+valor_caja);
             espacio_numero7.setText("");
             espacio_numero8.setText("");
             //mesajes

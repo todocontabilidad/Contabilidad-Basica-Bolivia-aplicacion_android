@@ -70,7 +70,7 @@ public class compra_Activos extends AppCompatActivity {
         tableRow.setBackground(gradientDrawable);
 
         // Establece el color del texto en blanco
-        textView.setTextColor(Color.WHITE);
+        textView.setTextColor(Color.parseColor("#000000"));
 
 
         et1 = (EditText) findViewById(R.id.editTextTexto);//Nombre del activo

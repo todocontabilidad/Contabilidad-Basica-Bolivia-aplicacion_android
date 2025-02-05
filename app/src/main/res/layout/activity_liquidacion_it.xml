@@ -5,12 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
     tools:context="com.datos.contabilidadbasicabolivia.LiquidacionIT">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5">
 
         <EditText
             android:id="@+id/editTextNumber"
@@ -33,7 +33,7 @@
             android:onClick="Generar"
             android:text="Generar Asiento"
             android:textStyle="bold"
-            android:textColor="#ffffff"
+            android:textColor="#333333"
             android:theme="@style/button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -90,6 +90,10 @@
                     android:text="CRÉDITOS"
                     android:textStyle="bold" />
             </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
 
             <TableRow
                 android:layout_width="match_parent"
@@ -101,6 +105,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2.5"
                     android:fontFamily="@font/sriracha"
+                    android:textColor="@color/black"
                     android:text="IT POR PAGAR" />
 
                 <TextView
@@ -109,6 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
+                    android:textColor="@color/black"
                     android:text="0.00" />
 
                 <View
@@ -122,6 +128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
+                    android:textColor="@color/black"
                     android:text="0.00" />
             </TableRow>
 
@@ -135,6 +142,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2.5"
                     android:fontFamily="@font/sriracha"
+                    android:textColor="@color/black"
                     android:text="     CAJA MONEDA NACIONAL" />
 
                 <TextView
@@ -143,6 +151,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
+                    android:textColor="@color/black"
                     android:text="0.00" />
 
                 <View
@@ -156,6 +165,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
+                    android:textColor="@color/black"
                     android:text="0.00" />
             </TableRow>
 
@@ -168,6 +178,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2.5"
+                    android:textColor="@color/black"
                     android:text="" />
 
                 <TextView
@@ -176,6 +187,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
+                    android:textColor="@color/black"
                     android:text="0.00" />
 
                 <View
@@ -189,6 +201,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
+                    android:textColor="@color/black"
                     android:text="0.00" />
             </TableRow>
 
@@ -206,7 +219,8 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/tableRow">
 
                 <TextView
                     android:id="@+id/glosa_01"
@@ -214,7 +228,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2.5"
                     android:text="Glosa:"
-                    android:textColor="#1A237E"
                     android:textStyle="bold" />
             </TableRow>
 

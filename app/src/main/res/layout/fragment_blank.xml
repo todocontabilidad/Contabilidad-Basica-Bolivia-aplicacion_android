@@ -36,7 +36,7 @@
                 android:gravity="center"
                 android:padding="8dp"
                 android:text="Normas Internacionales de Información Financiera NIIF Y Normas Internacionales de Contabilidad NIC"
-                android:textColor="#FFEB3B"
+                android:textColor="#333333"
                 android:textSize="20sp" />
 
             <!-- Segundo TextView -->
@@ -61,7 +61,7 @@ El objetivo de la Norma Internacional de Contabilidad N° 7 (NIC 7), es requerir
 \n
 \n"
                 android:textSize="16dp"
-                android:textColor="#000000"/>
+                android:textColor="#263238"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -88,7 +88,8 @@ El objetivo de la Norma Internacional de Contabilidad N° 7 (NIC 7), es requerir
             android:id="@+id/your_button_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:theme="@style/button6"
+            android:theme="@style/button1"
+            android:textColor="#333333"
             android:text="NORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA"
             android:onClick="onClickBoton1" />
 
@@ -98,6 +99,7 @@ El objetivo de la Norma Internacional de Contabilidad N° 7 (NIC 7), es requerir
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/button9"
+            android:textColor="#333333"
             android:text="NORMAS INTERNACIONALES CONTABILIDAD"
             android:onClick="onClickBoton2" />
         <Space

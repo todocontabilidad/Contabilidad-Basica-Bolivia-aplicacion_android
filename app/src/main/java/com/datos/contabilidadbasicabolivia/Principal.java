@@ -92,8 +92,8 @@ public class Principal extends AppCompatActivity implements NavigationView.OnNav
             openFragment(new MusicFragment());
         } else if (itemId==R.id.nav_gaming) {
             openFragment(new GamingFragment());
-        } else if (itemId==R.id.nav_movies) {
-            Toast.makeText(this, "Videos YouTube No Found", Toast.LENGTH_SHORT).show();
+        } else if (itemId==R.id.nav_sugerencias) {
+            openFragment(new SugerenciasFragment());
         }else if (itemId==R.id.nav_news) {
             Toast.makeText(this, "Normativa No Found", Toast.LENGTH_SHORT).show();
         }else if (itemId==R.id.nav_sports) {

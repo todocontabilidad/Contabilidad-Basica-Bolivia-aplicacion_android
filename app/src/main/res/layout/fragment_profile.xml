@@ -22,9 +22,13 @@
         android:gravity="center"
         android:padding="10dp"
         android:text="PLAN DE CUENTAS\n(Para empresas comerciales)"
-        android:textColor="#FFFFFF"
         android:textSize="18sp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:shadowColor="#5D6D7E"
+        android:shadowDx="1"
+        android:shadowDy="6"
+        android:shadowRadius="8"
+        android:textColor="#212F3C"/>
 
     <!-- ScrollView -->
     <ScrollView
@@ -49,7 +53,11 @@
                         android:fontFamily="@font/archivo_black"
                         android:padding="10dp"
                         android:text="CÓDIGO Nº"
-                        android:textColor="#FFFFFF"
+                        android:shadowColor="#5D6D7E"
+                        android:shadowDx="1"
+                        android:shadowDy="6"
+                        android:shadowRadius="8"
+                        android:textColor="#212F3C"
                         android:typeface="monospace" />
 
                     <TextView
@@ -58,7 +66,11 @@
                         android:layout_weight="3.5"
                         android:fontFamily="@font/archivo_black"
                         android:padding="10dp"
-                        android:textColor="#FFFFFF"
+                        android:shadowColor="#5D6D7E"
+                        android:shadowDx="1"
+                        android:shadowDy="6"
+                        android:shadowRadius="8"
+                        android:textColor="#212F3C"
                         android:text="DESCRIPCIÓN"
                         android:typeface="monospace" />
                 </TableRow>

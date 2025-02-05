@@ -101,6 +101,7 @@
                         android:layout_weight="1"
                         android:fontFamily="sans-serif"
                         android:padding="8dp"
+                        android:textColor="#333333"
                         android:text="Application Developer (2018-2020): I worked at a leading software company specializing in the development of enterprise applications in Java. During my tenure, I was involved in the creation and maintenance of human resources and accounting management systems. I implemented efficient and scalable solutions using Java technologies such as the Spring Framework and Hibernate.
 
 Senior Software Engineer in Game Development (2020-Present): Currently, I am part of a game development team where we leverage Java for creating mobile and desktop applications. My responsibilities include designing game systems, optimizing performance, and solving complex problems."
@@ -122,6 +123,7 @@ Senior Software Engineer in Game Development (2020-Present): Currently, I am par
                         android:layout_weight="1"
                         android:fontFamily="sans-serif"
                         android:padding="8dp"
+                        android:textColor="#333333"
                         android:text="mathematician"
                         android:textSize="16sp" />
                 </TableRow>
@@ -141,6 +143,7 @@ Senior Software Engineer in Game Development (2020-Present): Currently, I am par
                         android:layout_weight="1"
                         android:fontFamily="sans-serif"
                         android:padding="8dp"
+                        android:textColor="#333333"
                         android:text="La Paz, Bolivia"
                         android:textSize="16sp" />
                 </TableRow>

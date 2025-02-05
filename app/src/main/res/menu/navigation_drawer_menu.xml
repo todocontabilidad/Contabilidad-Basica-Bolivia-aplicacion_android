@@ -21,9 +21,9 @@
             android:title="Developer"/>
 
         <item
-            android:id="@+id/nav_movies"
-            android:icon="@drawable/baseline_movie_24"
-            android:title="Video Youtube"/>
+            android:id="@+id/nav_sugerencias"
+            android:icon="@drawable/baseline_edit_note_24"
+            android:title="¿Sugerencias? ¡Haz clic!"/>
 
         <item
             android:id="@+id/nav_news"
